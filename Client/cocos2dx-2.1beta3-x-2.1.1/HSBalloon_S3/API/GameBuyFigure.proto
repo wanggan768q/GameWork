@@ -1,0 +1,19 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "GameBuyFigure";
+
+message GameBuyFigureRequest
+{
+	required uint32 figureId = 1;
+}
+
+message GameBuyFigureResponse
+{
+	required ResultState state = 1;
+    enum ResultState
+    	{
+			SUCCESS = 1;
+			FAIL = 2;
+	    }
+	
+}

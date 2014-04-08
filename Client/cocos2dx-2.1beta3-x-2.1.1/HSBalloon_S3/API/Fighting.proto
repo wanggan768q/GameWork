@@ -1,0 +1,24 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Fighting";
+
+import "Address.proto";
+
+// 用户战斗请求
+message FightingRequest{
+}
+
+// 用户战斗响应
+message FightingResponse{
+
+    required RequestStatus status = 1;//请求状态
+    optional NetAddress address = 2;//战斗服务器地址
+    
+    enum RequestStatus{
+   
+			SUCCESS	= 1;//请求成功
+			FAIL 	= 0;//请求失败
+
+		}
+
+}

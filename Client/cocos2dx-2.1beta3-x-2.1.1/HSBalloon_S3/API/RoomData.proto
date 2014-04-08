@@ -1,0 +1,23 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+
+
+message RoomDataRequest
+{
+	
+}
+
+
+message RoomDataResponse
+{
+	repeated Room roomList = 1;
+	
+	message Room
+	{
+		required uint32 id = 1;						//Room id
+		required uint32 playerCount = 2;	//玩家数量
+		required int32	stakeGold = 3;		//赌注数量
+		required int32	sweepStakeGold = 4;		//赌金
+	}
+}

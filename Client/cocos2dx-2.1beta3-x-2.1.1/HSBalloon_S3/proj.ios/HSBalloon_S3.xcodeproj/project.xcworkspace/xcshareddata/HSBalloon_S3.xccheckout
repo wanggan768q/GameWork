@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A472E366-7B54-4180-9794-9CB53867D3BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HSBalloon_S3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D3EAF3F-68DB-48DB-A4C6-DF013D28FBDE</key>
+		<string>https://210.72.197.50:8443/svn/game/client/Client</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cocos2dx-2.1beta3-x-2.1.1/HSBalloon_S3/proj.ios/HSBalloon_S3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D3EAF3F-68DB-48DB-A4C6-DF013D28FBDE</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>0D3EAF3F-68DB-48DB-A4C6-DF013D28FBDE</key>
+		<string>https://210.72.197.50:8443/svn/game</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://210.72.197.50:8443/svn/game/client/Client/cocos2dx-2.1beta3-x-2.1.1/HSBalloon_S3/proj.ios/HSBalloon_S3.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D3EAF3F-68DB-48DB-A4C6-DF013D28FBDE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D3EAF3F-68DB-48DB-A4C6-DF013D28FBDE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Client</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+effect_00 = m1#红猫消除
+effect_01 = m2#黄猫消除
+effect_02 = m4#蓝猫消除
+effect_03 = m6#绿猫消除
+effect_04 = m7#紫猫消除
+porp1_effect = prop1#激光道具发动
+porp2_effect = prop2#变色龙道具发动
+porp3_effect = prop3#美杜莎道具发动
+porp4_effect = prop4#护盾道具发动
+coin_effect = coinget#获得金币效果
+unlock_effect = unlock#解锁效果
+win_effect = win#胜利&恭喜效果
+lose_effect = lose#失败效果
+hit_effect = hit#封面&配对界面撞击效果
+shot_effect = shot#被使用道具
+UI_button = ui_button#按钮效果
+alert_effect = alert_effect#屏幕闪红效果播放三次

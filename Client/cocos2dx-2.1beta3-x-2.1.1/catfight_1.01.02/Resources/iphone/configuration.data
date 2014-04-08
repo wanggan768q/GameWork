@@ -1,0 +1,14 @@
+
+ServerIp   = 115.29.228.49  #内网: 192.168.0.179         外网: 121.199.10.1外网测试115.29.228.49
+ServerPort = 2010
+ServerType = HS_SOCKET_TYPE_ONCE  #HS_SOCKET_TYPE_ONCE or HS_SOCKET_TYPE_KEEP
+
+ChannelID = 1    #渠道ID
+APPID = 101#应用程序ID
+
+HS_ONLINE = 1
+
+LoadMuisc = 1 #声音开关
+Isvideo = 0 #是否录像
+#propInfo================
+

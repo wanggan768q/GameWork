@@ -1,0 +1,19 @@
+package message;
+import "UserInfo.proto";
+option optimize_for = LITE_RUNTIME; 
+
+message GameCacheData
+{
+	optional string       	uid   = 1[default="0"];               //uid
+	optional string					IMEI	=	2;														//手机imei
+	optional bool 					isBackgroundMusic = 3[default=true];	//背景音乐开关
+	optional bool						isSound	=	4[default=true];						//音效开关
+	repeated int32        	finishedAchievementID = 5;            //已经完成的成就id
+	optional UserBasicInfo 	userInfo=6;                          //用户信息
+	optional bool 					isRunGameGuide = 7 [default = true];
+	optional bool 					isAlreadyRunGameGuide = 8[default = false];		//是否运行过新手引导
+	optional string 				nickname = 9 [default = ""];
+	optional bool 					isSendNickname = 10;
+	optional string					WeiBo_Name = 11;
+	optional string					WeiBo_ID = 12;
+}

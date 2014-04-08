@@ -1,0 +1,14 @@
+package message;
+
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "S3BuyGold";
+
+message BuyGold
+{
+	optional uint32    id = 1;//id
+	optional string    name = 2;//名字
+	optional string    describ = 3;//描述
+	optional uint32    gold_Number = 4;//金币数量
+	optional int32     money = 5;//需要的money （单位人民币）
+	optional string    localName = 6;//本地资源名称
+}

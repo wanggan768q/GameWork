@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "AddressBook";
+
+//ͨѶ¼
+message AddressBookRequest
+{
+	optional uint32 wb_Type = 1;//微博类型
+}
+
+
+message AddressBookResponse
+{
+   repeated Name nameList = 1;
+    message Name
+    {
+    	required string wb_name = 1;
+    	required string nick_name = 2;
+    }
+}

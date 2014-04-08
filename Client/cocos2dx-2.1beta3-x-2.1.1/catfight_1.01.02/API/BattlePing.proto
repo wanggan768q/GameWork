@@ -1,0 +1,13 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "BattlePing";
+import "Heartbeat.proto";
+message BattlePingRequest
+{
+	required HeartbeatRequest battlePingRequest =1;
+}
+
+message BattlePingResponse
+{
+	required HeartbeatResponse battlePingResponse = 1; 
+}

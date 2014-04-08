@@ -1,0 +1,2 @@
+back_01 = music01
+back_02 = music02

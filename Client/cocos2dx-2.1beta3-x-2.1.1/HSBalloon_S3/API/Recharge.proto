@@ -1,0 +1,9 @@
+package message ;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Recharge";
+
+// 通知客户端充值返回总金币值62012
+message NotifyRecharge{
+
+      optional uint32 totalGolds = 1;//用户当前金币值
+}

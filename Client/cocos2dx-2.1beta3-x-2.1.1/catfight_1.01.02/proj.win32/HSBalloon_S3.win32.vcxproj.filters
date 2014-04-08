@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{29c130d2-6e5d-40ad-a5e4-c10c0b55c010}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{bb55f0ec-2085-4596-b2f6-a17a4c67b345}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2306ccf1-1c8a-4c5e-b85b-c1c8120b76a7}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="WinMain\res\HSBalloon_S3.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMain\resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSBox2dShapeCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSChannel.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSChannelManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSGameCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSGameGuide.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSGameGuide.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSGameMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSJava.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSLoadingLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSBalloonSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSBattleScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\HSGameMainScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\HSGameSceneJumpManage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\GameLog.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\HSAllMessageHead.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSDataCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSProtocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSRequest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSResponse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSSocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSSocketPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSRaycastCallback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSContacListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSLine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattleData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSBalloonFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSGamePairScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\BuyGold.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\GameCacheData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\PropInfo.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\PropInfoData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Address.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Login.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Register.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSGameAdvancedPairLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSBattleOverLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSEquipFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSGameSelectPropLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSPropItemSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSUseBufferItemSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\HSUseBufferLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattleReady.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Fighting.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\StartBattle.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\TargetInfo.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\UserInfo.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattleResult.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Heartbeat.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\KickOutDungoen.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Playerdisengage.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSEffectItemSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_BlackInk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_ColorfulCandy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_SickMucus.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSCrossBorderInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Buff.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\UseBuff.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_LaserGun.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSPropManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_Meidusha.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_EnergyShield.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_Chameleon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSAllPropHead.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\DebuffProp\HSPropBalloonInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\GainProp\HSPropIconInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\HSGameCoverScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\HSGameDialogLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSCell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSItemData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSListView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendsListVeiw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendsSystemScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\HSGameFrisbee.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattlePing.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\GamePing.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\DeleteFriend.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\FriendInfo.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\DestroyBalloon.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\UseProp.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendInfoSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenLsitView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenSrpite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\Achievement.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\HSGamePlayerInfoLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\HSPlayerInfoListView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\HSPlayerInfoSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\SearchUserInfo.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HSThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSGamePlayerInfoLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSPlayerInfoListView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSPlayerInfoSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\Shop\HSGameShopLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\Shop\HSShopListView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\Shop\HSShopSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSHeadSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSBattleTranscribe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattleInfoData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\BattleTranscribeData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\AddFriend.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\RemoveFriend.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\SeniortSystem\HSSeniortSystemScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\SeniortSystem\HSRoomListView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\SeniortSystem\HSRoomSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\RoomData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\SeniortSystem\HSGoldInadequateDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSInputDialogLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\DailyRewardSystem\HSDailyRewardSystemLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\DailyRewardSystem.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\ClaimedDailyReward.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody\Battle\HSGameGuideRaycastCallback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\UserInfoUpdate.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\ErrorMessage.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\ExitAdvanced.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\HSJson.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage\ReceiveAchievementReward.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\AchievementData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSBox2dShapeCache.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSChannel.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSChannelManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSGameCache.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSGameGuide.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSGameGuide.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSJava.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSLoadingLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSLog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSTool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSBalloonSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSBattleScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\HSGameMainScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\HSGameSceneJumpManage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\GameLog.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSDataCache.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSFilter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSProtocol.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSRequest.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSResponse.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSSocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSSocketPool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSRaycastCallback.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSContacListener.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSLine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattleData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSBalloonFactory.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSGamePairScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\BuyGold.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameCacheData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\PropInfo.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\PropInfoData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Address.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Login.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Register.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSGameAdvancedPairLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSBattleOverLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSEquipFrame.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSGameSelectPropLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSPropItemSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSUseBufferItemSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\HSUseBufferLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattleReady.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Fighting.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\StartBattle.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\TargetInfo.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\UserInfo.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattleResult.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Heartbeat.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\KickOutDungoen.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Playerdisengage.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSEffectItemSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_BlackInk.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_ColorfulCandy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_SickMucus.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSCrossBorderInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Buff.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\UseBuff.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_LaserGun.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSPropManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_Meidusha.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_EnergyShield.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_Chameleon.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\DebuffProp\HSPropBalloonInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\GainProp\HSPropIconInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\HSGameCoverScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\HSGameDialogLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendsListVeiw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendsSystemScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\HSGameFrisbee.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattlePing.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\GamePing.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\DeleteFriend.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\FriendInfo.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\DestroyBalloon.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\UseProp.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendInfoSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenLsitView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenSrpite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\Achievement.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\SearchUserInfo.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HSThread.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSGamePlayerInfoLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSPlayerInfoListView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSPlayerInfoSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\Shop\HSGameShopLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\Shop\HSShopListView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\Shop\HSShopSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSHeadSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSBattleTranscribe.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattleInfoData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\BattleTranscribeData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\AddFriend.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\RemoveFriend.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSPoint.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\SeniortSystem\HSSeniortSystemScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\SeniortSystem\HSRoomListView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\SeniortSystem\HSRoomSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\RoomData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\SeniortSystem\HSGoldInadequateDialog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\HSInputDialogLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\DailyRewardSystem\HSDailyRewardSystemLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\DailyRewardSystem.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\ClaimedDailyReward.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody\Battle\HSGameGuideRaycastCallback.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\UserInfoUpdate.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\ErrorMessage.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\ExitAdvanced.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessage\ReceiveAchievementReward.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinMain\HSBalloon_S3.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

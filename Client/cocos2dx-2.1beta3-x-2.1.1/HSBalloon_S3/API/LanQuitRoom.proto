@@ -1,0 +1,7 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message LanQuitRoomNotice
+{
+	required string uuid = 1;//用户ID
+}

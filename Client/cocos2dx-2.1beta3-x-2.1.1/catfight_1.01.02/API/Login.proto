@@ -1,0 +1,35 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Login";
+
+import "Address.proto";
+import "DailyRewardSystem.proto";
+
+//登录请求
+message LoginRequest{
+     optional string wb_UUID = 1;//微博id
+     optional uint32 channel = 2;//客户端渠道
+     optional uint32 version = 3;//客户端版本号
+}
+
+//登录响应
+message LoginResponse{
+
+ required LoginStatus status = 1;//登录状态
+ optional NetAddress address = 2;//服务器地址
+ optional DailyRewardSystemData dailyRewardData = 3;//每日奖励
+ optional string oldUid = 4;//旧用户id
+ optional uint32 version = 5;//最新客户端版本号
+ 
+ optional string gameName = 6;//游戏名字
+ optional string gameDownload = 7;//游戏下载地址
+ 
+ enum LoginStatus{
+   
+	   LoginStatus_SUCCESS	= 1;//登录成功
+	   LoginStatus_FAIL 	= 0;//登录失败
+	   
+
+    }
+
+}

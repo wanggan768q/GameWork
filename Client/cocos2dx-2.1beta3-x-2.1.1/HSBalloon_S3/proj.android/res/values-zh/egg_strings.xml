@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_share_circle_failed">创建分享房间失败</string>
+    <string name="entry_share_client_failed">加入房间失败</string>
+     <string name="search_share_timeout">没有查找到房间</string>
+</resources>

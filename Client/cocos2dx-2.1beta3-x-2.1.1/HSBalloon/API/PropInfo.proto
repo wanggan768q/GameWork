@@ -1,0 +1,44 @@
+package message;
+
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "HSPropInfo";
+
+message PropInfo
+{
+	optional	string					name	=	1;			//名字
+	optional	uint32					id	=	2;	//道具ID
+	optional	int32						buyMoney	=	3;	//购买价格
+	optional	uint32					pos	=	4;			//道具摆放位置ID  从0开始 进入游戏里的位置
+	optional	bool						isBuy	=	5[default=false];
+	optional	string					describe	=	6[default=""];	//描述
+	optional	ManualPropType	manualPropType = 7[default=BALLOON_PROPS_Unknow];	//手动道具类型
+	optional	PropType				propType = 8[default=Unknow]; //道具类型
+	optional	int32						cheapMoney = 9;	//优惠价格
+	repeated	IncludePropInfo	giftBag = 10;//礼包包含哪种道具
+	optional	float						duration = 11;//持续时间
+	
+	message IncludePropInfo
+	{
+		required PropInfo propInfo = 1;
+		required int32 count	=	2;
+	}
+	
+	
+	
+	enum ManualPropType
+	{
+		BALLOON_PROPS_Unknow = 0;
+		BALLOON_PROPS_ChangeColorFullScreen = 1;				//变色龙之眼 全屏随即变色(手动)
+		BALLOON_PROPS_Lightning = 2;										//喵之闪电
+		BALLOON_PROPS_KingTime = 3;											//喵之恩赐 黄金时间(手动)
+		BALLOON_PROPS_StratagemLevelByZero = 4;					//喵酱宽恕
+	}
+	
+	enum PropType
+	{
+		Unknow = 0;
+		ManualProp 	= 1;
+		BufferProp	= 2;
+	}
+	
+}

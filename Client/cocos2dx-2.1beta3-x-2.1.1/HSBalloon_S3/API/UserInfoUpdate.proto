@@ -1,0 +1,31 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "UserInfoUpdate";
+
+message UserInfoUpdateRequest
+{
+	required UpdateType type = 1;//修改目标类型
+	optional string name = 2;//名字
+	optional uint32 iconId = 3;//头像id
+	optional uint32 figureId = 4;//形象id
+	
+    enum UpdateType
+	{
+			User_IconId = 1;
+			User_Name = 2;
+			User_Figure = 3;
+	}
+}
+
+message UserInfoUpdateResponse
+{
+	required UpdateState state = 1;//更新结果状态
+    enum UpdateState
+    	{
+			OK = 1;
+			FAIL = 2;
+			NOMONEY = 3;
+			NO_FIGURE = 4;
+	    }
+	
+}

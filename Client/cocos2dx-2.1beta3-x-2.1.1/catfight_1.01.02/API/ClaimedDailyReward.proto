@@ -1,0 +1,19 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message ClaimedDailyRewardRequest
+{
+	required int32 dayID = 1;
+}
+
+message ClaimedDailyRewardResponse
+{
+	required GetState state = 1;//领取状态
+	optional int32 addGoldNumber = 2;		//添加多少金币
+	enum GetState
+		{
+			GetState_Fail = 0;
+			GetState_Success = 1;
+			GetState_Repetition = 2;
+		}
+}

@@ -1,0 +1,42 @@
+package message;
+
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "HSStratagemData";
+
+message StratagemData
+{
+	required 	uint32	id	=	1;
+	repeated	StratagemConfig	config	=	2;
+	
+	message StratagemConfig
+	{
+		required uint32	id	=	1;
+		required string bodyShapePlistName = 2;	//物理引擎编辑好的plist文件
+		repeated StratagemBase	stratagemBaseList = 3;
+		repeated StratagemAction actionList = 4;
+	}	
+	
+	message StratagemAction
+	{
+		required uint32	id	=	1;
+		repeated StratagemStep togetherMoveList = 2;
+		repeated StratagemStep sequenceMovesList = 3;
+	}
+	
+	message StratagemStep
+	{
+		required 	uint32	stepId	=	1;
+		required 	uint32	stratagemId	=	2;
+		required	int32	x	=	3;
+		required	int32	y	=	4;
+		required	float	duration = 5;
+	}
+
+	message StratagemBase
+	{
+		required 	string 	textureName = 1;		
+		required 	uint32	id	=	2;
+		required	float		sourceX = 3;
+		required	float		sourceY = 4;		
+	}	
+}

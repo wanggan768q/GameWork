@@ -1,0 +1,44 @@
+package message ;
+option optimize_for = LITE_RUNTIME;
+
+message FigureData
+{
+	repeated FigureBase FigureList = 1;
+
+	message FigureBase
+	{
+		required int32	id 								= 1;
+		optional int32	level 							= 2[default = 1];
+		optional string name							= 3;
+		optional string describe						= 4;
+		optional string buyDescribe						= 5;
+		required int32 price							= 6;
+		repeated FigureLevelTable levelTableList		= 7;
+		optional FigureProperty property 				= 8;
+	}
+
+	message FigureLevelTable
+	{
+		required int32	level 							= 1;
+		required int32	nextLevelGold					= 2;
+		required int32	property_0						= 3;
+		required int32	property_1						= 4;
+		required int32	property_2						= 5;
+	}
+
+	message FigureProperty
+	{	
+	    optional float X_Lian_Xian_Ju_Li 				= 1[default = 0];	//连线距离
+	    optional float Y_Lian_Xian_Ju_Li 				= 2[default = 0];	//连线距离
+	    optional float X_Diao_Luo_Shi_Jian_Jian_Ge 		= 3[default = 0];	//掉落时间间隔
+	    optional float Y_Diao_Luo_Shi_Jian_Jian_Ge 		= 4[default = 0];	//掉落时间间隔
+	    optional float X_Shi_Hua_Shi_Jian				= 5[default = 0];	//石化时间
+	    optional float Y_Shi_Hua_Shi_Jian				= 6[default = 0];	//石化时间
+	    optional float X_Tan_Xing						= 7[default = 0];	//弹性
+	    optional float Y_Tan_Xing						= 8[default = 0];	//弹性
+	    optional float X_Diao_Luo_Shu_Liang				= 9[default = 0];	//掉落数量
+	    optional float Y_Diao_Luo_Shu_Liang				= 10[default = 0];	//掉落数量
+	    optional float X_Shi_Hua_Qiu_Shu_Liang			= 11[default = 0];	//石化球数量
+	    optional float Y_Shi_Hua_Qiu_Shu_Liang			= 12[default = 0];	//石化球数量
+	}
+}

@@ -1,0 +1,730 @@
+obj/local/armeabi/objs/game_shared/__/__/Classes/Base/HSReadStream.o: \
+ jni/../../Classes/Base/HSReadStream.cpp \
+ jni/../../Classes/Base/HSReadStream.h jni/../../Classes/LibBase/HSBase.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/cocos2d.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccConfig.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformConfig.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCAction.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccConfig.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformConfig.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCPlatformDefine.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/android/log.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInterval.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccMacros.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCCommon.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCStdC.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/math.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/android/api-level.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdint.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/_types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/_types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/limits.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/limits.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/limits.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/internal_types.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/limits.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/string.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/malloc.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdio.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdlib.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/alloca.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/strings.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/memory.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/time.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/time.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/time.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/siginfo.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCAffineTransform.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/ccCArray.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCGL.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2platform.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/KHR/khrplatform.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2ext.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/ccGLStateCache.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/CCGLProgram.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/kazmath.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/vec2.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/vec3.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/assert.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat3.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/utility.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat4.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/quaternion.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/plane.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/aabb.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/ray2.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/script_support/CCScriptSupport.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCAccelerometer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCAccelerometerDelegate.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCCommon.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouch.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCSet.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/set \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/map \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/string \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/list \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCAction.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCProtocols.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypes.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTexture2D.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypes.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrame.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCAnimation.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCDictionary.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/uthash.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCString.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/functional \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrame.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/vector \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionCamera.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInterval.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionManager.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionEase.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionPageTurn3D.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid3D.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInstant.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypeInfo.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionProgressTimer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid3D.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionTiledGrid.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInstant.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionTween.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionCatmullRom.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCAtlasNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCAutoreleasePool.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCInteger.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCFloat.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCDouble.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCBool.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCString.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCNS.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCZone.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/draw_nodes/CCDrawingPrimitives.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/draw_nodes/CCDrawNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/effects/CCGrabber.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCConfiguration.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/effects/CCGrid.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCCamera.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat4.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCDirector.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelTTF.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSprite.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTextureAtlas.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCEventType.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCProtocols.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccMacros.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/kazmath.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/matrix.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/../mat4.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/../vec3.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDelegate.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDispatcher.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDelegate.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelAtlas.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelTTF.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelBMFont.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteBatchNode.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/sstream \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCLayer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCScene.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransition.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCScene.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransition.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenu.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenuItem.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenuItem.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCClippingNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCMotionStreak.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCProgressTimer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCRenderTexture.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleBatchNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystem.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleExamples.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystemQuad.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystem.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystemQuad.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCFileUtils.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCImage.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCSAXParser.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCThread.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/platform.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCThread.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCAccelerometer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCApplication.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCApplicationProtocol.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCEGLView.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCEGLViewProtocol.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCGL.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCStdC.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/CCShaderCache.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/ccShaders.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCAnimationCache.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrameCache.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCNotificationCenter.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCPointExtension.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCProfiling.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCUserDefault.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCVertex.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDelegate.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDispatcher.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDelegate.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCTextFieldTTF.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTextureCache.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTexturePVR.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCParallaxNode.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXLayer.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXTiledMap.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTileMapAtlas.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDispatcher.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchHandler.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDispatcher.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCScheduler.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/uthash.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../CocosDenshion/android/../include/SimpleAudioEngine.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../CocosDenshion/android/../include/Export.h \
+ jni/../../Classes/LibBase/HSMacros.h \
+ jni/../../Classes/LibBase/HSFileData.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/stat.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/stat.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/endian.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/endian.h \
+ jni/../../Classes/LibNewCocos2dx/HSGraySprite.h \
+ jni/../../Classes/LibNewCocos2dx/HSModalDialogInterface.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream_impl.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/stubs/common.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream_impl_lite.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/coded_stream.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/param.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/param.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/param.h \
+ E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/fstream \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/message.h \
+ F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/message_lite.h
+
+jni/../../Classes/Base/HSReadStream.h:
+
+jni/../../Classes/LibBase/HSBase.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/cocos2d.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccConfig.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformConfig.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCAction.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccConfig.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformConfig.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCPlatformDefine.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/android/log.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInterval.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccMacros.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCCommon.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCStdC.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/math.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/android/api-level.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdint.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/_types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/_types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/limits.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/limits.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/limits.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/internal_types.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/machine/limits.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/syslimits.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/string.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/malloc.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdio.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/stdlib.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/alloca.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/strings.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/memory.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/time.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/time.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/time.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/siginfo.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCAffineTransform.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/ccCArray.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCGL.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2platform.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/KHR/khrplatform.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/GLES2/gl2ext.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/ccGLStateCache.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/CCGLProgram.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/kazmath.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/vec2.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/vec3.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/assert.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat3.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/utility.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat4.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/quaternion.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/plane.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/aabb.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/ray2.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/script_support/CCScriptSupport.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCAccelerometer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCAccelerometerDelegate.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCCommon.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouch.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCSet.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/set:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/map:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/string:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/list:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCAction.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCProtocols.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypes.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTexture2D.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypes.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrame.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCAnimation.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCDictionary.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/uthash.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCString.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/functional:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrame.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/vector:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionCamera.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInterval.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionManager.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionEase.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionPageTurn3D.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid3D.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInstant.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccTypeInfo.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionProgressTimer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionGrid3D.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionTiledGrid.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionInstant.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionTween.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/actions/CCActionCatmullRom.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCAtlasNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/base_nodes/CCNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCAutoreleasePool.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCInteger.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCFloat.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCDouble.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCBool.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCString.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCNS.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCZone.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/draw_nodes/CCDrawingPrimitives.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/draw_nodes/CCDrawNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/effects/CCGrabber.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCConfiguration.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCObject.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/effects/CCGrid.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCCamera.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/mat4.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCDirector.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCPlatformMacros.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCGeometry.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/cocoa/CCArray.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelTTF.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSprite.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTextureAtlas.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCEventType.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/CCProtocols.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/include/ccMacros.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/kazmath.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/matrix.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/../mat4.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/kazmath/include/kazmath/GL/../vec3.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDelegate.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDispatcher.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/keypad_dispatcher/CCKeypadDelegate.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelAtlas.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelTTF.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/label_nodes/CCLabelBMFont.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteBatchNode.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/sstream:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCLayer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCScene.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransition.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCScene.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransition.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenu.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenuItem.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/menu_nodes/CCMenuItem.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCClippingNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCMotionStreak.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCProgressTimer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/misc_nodes/CCRenderTexture.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleBatchNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystem.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleExamples.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystemQuad.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystem.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/particle_nodes/CCParticleSystemQuad.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCFileUtils.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCImage.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCSAXParser.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCThread.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/platform.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCThread.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCAccelerometer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCApplication.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCApplicationProtocol.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCEGLView.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/CCEGLViewProtocol.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCGL.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/platform/android/CCStdC.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/CCShaderCache.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/shaders/ccShaders.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCAnimationCache.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/sprite_nodes/CCSpriteFrameCache.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCNotificationCenter.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCPointExtension.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCProfiling.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCUserDefault.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/CCVertex.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDelegate.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDispatcher.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCIMEDelegate.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/text_input_node/CCTextFieldTTF.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTextureCache.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/textures/CCTexturePVR.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCParallaxNode.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXLayer.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXObjectGroup.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXTiledMap.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTMXXMLParser.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/tilemap_parallax_nodes/CCTileMapAtlas.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDispatcher.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchHandler.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/touch_dispatcher/CCTouchDispatcher.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/CCScheduler.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/support/data_support/uthash.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../CocosDenshion/android/../include/SimpleAudioEngine.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../CocosDenshion/android/../include/Export.h:
+
+jni/../../Classes/LibBase/HSMacros.h:
+
+jni/../../Classes/LibBase/HSFileData.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/stat.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/stat.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/endian.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/endian.h:
+
+jni/../../Classes/LibNewCocos2dx/HSGraySprite.h:
+
+jni/../../Classes/LibNewCocos2dx/HSModalDialogInterface.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream_impl.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/stubs/common.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/zero_copy_stream_impl_lite.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/io/coded_stream.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/sys/param.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/param.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/asm/param.h:
+
+E:/InstallerApplication/Cygwin/android-ndk-r8b-windows/android-ndk-r8b/sources/cxx-stl/gnu-libstdc++/4.6/include/fstream:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/message.h:
+
+F:/Work/IOS/Client/cocos2d-2.1beta3-x-2.1.1/cocos2d-2.1beta3-x-2.1.1/HSBalloon_a/proj.android/../../cocos2dx/google/protobuf/message_lite.h:

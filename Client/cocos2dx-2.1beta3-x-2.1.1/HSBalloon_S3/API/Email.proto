@@ -1,0 +1,18 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Email";
+
+message EmailRequest
+{
+}
+
+message EmailResponse
+{
+    repeated EmailInfo emailList = 1;
+    
+    message EmailInfo
+    {
+    	required uint64 email_ID = 1;
+    	required string givePalyerName = 2;
+    }
+}

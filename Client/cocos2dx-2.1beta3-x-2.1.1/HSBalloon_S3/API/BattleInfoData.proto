@@ -1,0 +1,26 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message BattleInfo
+{
+	required string id = 1;				//战斗副本ID
+	required int64 timestamp = 2;
+	repeated Balloon balloonDataList = 3;
+	repeated DropPetrifactionBalloon dropPetrifactionList = 4;		//掉落多少个石化气球
+	repeated int32 userPropID = 5;		//对目标的使用的道具
+	 
+	message Balloon
+	{
+		required int32 id = 1;					//气球ID
+		required float x = 2;
+		required float y = 3;
+		required float angle = 4;
+		required int32 colorType = 5;	//气球颜色类型
+	}
+	
+	message DropPetrifactionBalloon
+	{
+		required int32 count = 1;
+		required int32 willChangeColorType = 2;	//气球颜色类型
+	}
+}

@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{d0124e2f-b2e9-4bcc-9394-be9b455c1b29}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{551117d9-aa48-4eea-9b2e-61dc99c31a05}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{5c003691-aaa0-42c2-bfa8-46a57be88a68}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibBase\GE_Base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\HSBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\HSDataStruct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\HSMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\HSMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\HSToolBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_Base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_CharDecoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_CharEncoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_CircularBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_ConfigFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_DataBlock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_Exception.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_InputBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_InputDataStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_InputFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_InputStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_InputTextStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_ISerialize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_OutputBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_OutputDataStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_OutputFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_OutputStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibIO\IO_OutputTextStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSCCSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Action.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Bitmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Data.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Element.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Frame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_FrameSequence.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_ISpriteEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Rect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_SequenceItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Skin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Tile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_TileElement.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_TileSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\HSStructure.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\UIData.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSPX\SPX_Demo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSDrawLines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSDownload.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\DownloadList.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\HSMessage.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\IoFile.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMath\HSMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMath\HSVector2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMath\HSTriangular.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBase\GLES-Render.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSCCLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSGraySprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibShaders\HSFontStrokeShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibShaders\HSFontFollwingFragmentShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibStructure\HSLanguage.pb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSFileData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSLanguage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSReadData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSReadPlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSReadUI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSSoundManage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSTime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSVisibleRect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSWriteData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTemplate\HSObjectPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJni\HSJni.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSClippingNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSFadeIn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibBox2d\HSBox2dTool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInterface\HSListViewInterface\HSItemDataInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInterface\HSListViewInterface\HSListViewInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInterface\HSListViewInterface\HSTouchItemInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInterface\HSListViewInterface\HSCellInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInterface\HSModalDialogInterface\HSModalDialogInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNewCocos2dx\HSTableMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSOffset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibFunction\HSJson.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNet\HSSocketInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibBase\GE_Base.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBase\HSBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBase\HSDataStruct.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBase\HSMacros.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBase\HSToolBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_Base.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_CharDecoder.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_CharEncoder.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_CircularBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_ConfigFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_DataBlock.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_Exception.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_InputBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_InputDataStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_InputFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_InputStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_InputTextStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_ISerialize.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_OutputBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_OutputDataStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_OutputFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_OutputStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibIO\IO_OutputTextStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSCCSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Action.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Base.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Bitmap.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Data.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Element.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Frame.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_FrameSequence.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_ISpriteEvent.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Rect.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_SequenceItem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Skin.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Tile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_TileElement.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_TileSet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibStructure\UIData.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSPX\SPX_Demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSDrawLines.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSDownload.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibStructure\DownloadList.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibStructure\HSMessage.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibStructure\IoFile.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMath\HSMath.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMath\HSVector2d.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMath\HSTriangular.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBase\GLES-Render.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSCCLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSGraySprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSSet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibStructure\HSLanguage.pb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSFileData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSLanguage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSReadData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSReadPlist.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSReadUI.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSSoundManage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSVisibleRect.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSWriteData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTemplate\HSObjectPool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJni\HSJni.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSClippingNode.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSFadeIn.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibBox2d\HSBox2dTool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibInterface\HSListViewInterface\HSItemDataInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibInterface\HSListViewInterface\HSListViewInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibInterface\HSListViewInterface\HSTouchItemInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibInterface\HSListViewInterface\HSCellInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibInterface\HSModalDialogInterface\HSModalDialogInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNewCocos2dx\HSTableMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSOffset.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibFunction\HSJson.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LibNet\HSSocketInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

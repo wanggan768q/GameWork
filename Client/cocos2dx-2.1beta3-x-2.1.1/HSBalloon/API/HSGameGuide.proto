@@ -1,0 +1,50 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "HSGameGuide";
+
+message GameGuide
+{
+	repeated Guide guideList = 1;
+	
+	message Guide
+	{
+		required 	int32 id = 1;
+    required	ModeType	modeType = 2;
+    
+    repeated	Rect	rect = 3;
+    repeated	Point	pointList	 = 4;
+    repeated	float	diameter = 5;
+    repeated	float	multiple = 6;
+    optional	Point describePos = 7;
+    optional  TouchType touchType = 8;
+    optional	string describe	=	9[default=""];	//描述
+ 
+    
+    enum ModeType
+    {
+    	ModeType_Round = 1;	//圆
+    	ModeType_Rect = 2;	//方形
+    }
+    
+    enum TouchType
+    {
+    	TouchType_leak = 1;//漏下去
+    	TouchType_intercept = 2;//拦截
+    }
+    
+    message Rect
+    {
+    	required float x = 1;		//Anchor_LD
+    	required float y = 2;
+    	required float w = 3;
+    	required float h = 4;
+    }
+    
+    message Point
+    {
+    	required float x = 1;
+    	required float y = 2;
+    }
+	}
+
+}

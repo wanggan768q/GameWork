@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "MatchBuyFigure";
+//买形象协议
+message MatchBuyFigureRequest
+{
+    optional string did = 1;//副本id
+	required uint32 figureId = 2;//形象id
+}
+
+message MatchBuyFigureResponse
+{
+	required ResultState state = 1;//购买结果状态
+    enum ResultState
+    	{
+			SUCCESS = 1;
+			FAIL = 2;
+	    }
+	
+}

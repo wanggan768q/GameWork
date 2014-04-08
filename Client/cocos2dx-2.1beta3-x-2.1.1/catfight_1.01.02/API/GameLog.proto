@@ -1,0 +1,80 @@
+package message;
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "GameLog";
+
+
+// 日志数据请求
+message LogRequest{
+
+    repeated UserLog userLogs = 1;//用户常规日志
+    optional TerminalLog terminalLogs = 2;//终端设备日志
+    repeated GoodsLog goodsLog = 3;//购买物品日志
+    
+		enum ActionType{
+		    
+		     Normal = -1;//无
+		     Activate = 0;//激活
+		     Register = 1;//注册
+		     Login = 2;//登录
+		     Logout =3;//登出
+		     Logoff = 4;//注销
+		}
+		
+		enum BuyType{
+		    
+		     BuyItem = 1;//购买道具
+		     BuyGold = 2;//购买金币
+		     BuyGood = 3;//购买物品
+		     BuyOrnament = 4;//购买装饰
+		}
+		
+		enum BuyState{
+		    
+		     Success = 0;//购买成功
+		     Fail = 1;//购买失败
+		     Repeat_Buy = 2;//重复购买
+		}
+		
+		message UserLog{
+		
+		   optional int32 chID=1;//渠道ID
+		   optional uint64 loginTime=2;//登陆时间
+		   optional ActionType actionType=3;//操作类型
+		   optional uint64 logoutTime=4;//登出时间
+		   optional uint64 sTime=5;//记录时间
+		}
+		
+		message TerminalLog{
+		  optional string osName =1;//操作系统名称（Windows，Android，IOS）
+		  optional string dpiSize =2;//操作系统分辨率（800x480,1024x800）
+		  optional string cliType =3;//客户端类型（IE，Android，IOS）
+		  optional string verInfo =4;//操作系统版本
+		  optional string netType =5;//联网方式（lan，wifi，3G）
+		  optional string netProInfo =6;//联网提供商（cmcc，unicom，ct）
+		  optional string countryInfo = 7;//所属国家（cn，usa）
+		  optional string cityInfo =8;//所属城市（bj，tj，sh）
+		}
+		
+		message GoodsLog
+		{
+		    optional int32 chID = 1;//渠道ID
+		    optional BuyType type = 2;//购买行为
+		    optional int32 goodsID = 3;//购买对象唯一ID
+		    optional int32 buySize = 4;//购买数量
+		    optional BuyState state = 5;//购买结果
+		    optional uint64 buyTime = 6;//购买时间
+		    optional uint64 sTime = 7;//本次记录时间
+		}
+
+}
+
+// 日志接收响应
+message LogResponse{
+
+    required ResultStatus status = 1;//服务器处理状态
+    
+    enum ResultStatus{
+			OK	= 1; //处理日志成功
+			FAIL = 0;//处理日志失败
+		}
+}

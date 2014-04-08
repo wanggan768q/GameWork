@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A49CAD6-679C-4E3E-B325-6A4698D61C2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HSLibJson</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EB8A55C4-1AF7-4324-9D8B-1408DC7643C2</key>
+		<string>https://192.168.0.130/svn/game/client/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Client/cocos2dx-2.1beta3-x-2.1.1/HSMac/HSLibJson/HSLibJson.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EB8A55C4-1AF7-4324-9D8B-1408DC7643C2</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>EB8A55C4-1AF7-4324-9D8B-1408DC7643C2</key>
+		<string>https://192.168.0.130/svn/game</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.130/svn/game/client/IOS/Client/cocos2dx-2.1beta3-x-2.1.1/HSMac/HSLibJson/HSLibJson.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EB8A55C4-1AF7-4324-9D8B-1408DC7643C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB8A55C4-1AF7-4324-9D8B-1408DC7643C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

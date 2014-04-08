@@ -1,0 +1,23 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ChangeFigure";
+
+// 形象升级请求
+message ChangeFigureRequest{
+
+   required uint32 figureId = 1;	//形象id
+   optional string did = 2;//副本id
+}
+
+//  形象升级响应
+message ChangeFigureResponse{
+
+	required ChangeState state = 1;//更新结果状态
+    enum ChangeState
+    	{
+			SUCCESS = 1;
+			FAIL = 2;
+			NOMONEY = 3;
+			NO_FIGURE = 4;
+	    }
+}

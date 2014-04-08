@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cat fight</string>
+    <string name="parse_error">parse json data error</string>
+    <string name="exitTip">once more exit game</string>
+</resources>

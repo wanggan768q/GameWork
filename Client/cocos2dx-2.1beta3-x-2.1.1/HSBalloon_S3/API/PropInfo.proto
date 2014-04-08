@@ -1,0 +1,62 @@
+package message;
+
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "S3PropInfo";
+
+message PropInfo
+{
+	optional uint32    id = 1;//id
+	optional string    name = 2;//名字
+	optional string    localname=3;//本地地址名称
+	optional string    describ = 4;//描述
+	optional PropType propType = 5[default = Unknow];//道具类型 是手动道具还是buffer道具
+	optional ManualPropType manualPropType =6[default = MANUAL_PROPS_Unknow];//手动道具类型
+	optional BufferPropType bufferPropType = 7[default = BUFFER_PROPS_Unkonw];//buffer手动道具
+	optional uint32    level = 8[default=1];//等级
+	optional uint32    unlockLevel = 9[default=1];//解锁等级
+	optional uint32    useNumber = 10[default = 0];//使用次数
+	optional ActionObjectType    actionType = 11[default = ACTION_UNKONW];//作用类型
+	optional int32     gold = 12;//话费的金币
+	optional int32		 unlockGold = 13;//解锁需要花费的金币
+	optional float    ctTime =14;//ct时间
+	optional float		duration = 15;//持续时间
+	optional EffectPropType effectPropType =16[default = Effect_Unkonw];//effect类型
+	
+	enum ActionObjectType
+	{
+		ACTION_UNKONW = 0;
+		ACTION_OWN = 1;
+		ACTION_OPPOSITE =2;
+	}
+	
+	enum PropType
+	{
+		Unknow = 0;
+		ManualProp 	= 1;
+		BufferProp	= 2;
+		EffectProp = 3;
+		HeadProp = 4;
+	}
+	
+	enum ManualPropType
+	{
+		MANUAL_PROPS_Unknow = 0;
+		MANUAL_PROPS_LaserGun = 1;//激光枪
+	}
+	
+	enum BufferPropType
+	{
+		BUFFER_PROPS_Unkonw = 0;
+		BUFFER_PROPS_Chameleon =1;
+		BUFFER_PROPS_Meidusha =2;
+		BUFFER_PROPS_EnergyShield =3;
+	}
+	
+	enum EffectPropType
+	{
+		Effect_Unkonw =0;
+		Effect_ColorfulCandy = 1;
+		Effect_SickMucus =2;
+		Effect_BlackInk = 3;
+	}
+}

@@ -1,0 +1,11 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ErrorMessage";
+// ´íÎóÏûÏ¢
+message ErrorMessageInfo
+{	
+    optional string  description =1;//´íÎóÃèÊö
+    
+}
+
+

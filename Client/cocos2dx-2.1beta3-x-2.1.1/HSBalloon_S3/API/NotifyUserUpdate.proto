@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "NotifyUserUpdate";
+
+// 战斗服下客户端通知服务端用户金币更新
+message NotifyUserUpdateRequest{
+   required string did = 1;//副本id
+}
+
+// 战斗准备通知响应
+message NotifyUserUpdateResponse{
+
+    required UpdateStatus status = 1;
+    
+    //请求状态
+    enum UpdateStatus{
+			SUCCESS= 1;//更新成功
+			FAILED = 2;//更新失败
+		}
+}

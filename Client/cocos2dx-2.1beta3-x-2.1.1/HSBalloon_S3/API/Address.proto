@@ -1,0 +1,10 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Address";
+
+message NetAddress{
+
+  optional string ip = 1;
+  optional uint32 port = 2;
+
+}

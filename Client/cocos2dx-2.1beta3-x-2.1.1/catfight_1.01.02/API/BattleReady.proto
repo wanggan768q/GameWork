@@ -1,0 +1,28 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "BattleReady";
+
+// 战斗准备通知
+message BattleReadyRequest
+{
+   required string did = 1;//副本id
+   required TYPE_ACTION type =2;//类型
+   
+   enum TYPE_ACTION
+   {
+   	ACTION_UNKONW =1;
+   	ACTION_READY =2;
+   	ACTION_CANCLE=3;
+   }
+}
+
+// 战斗准备通知响应
+message BattleReadyResponse{
+
+    required BattleReadyStatus status = 1;
+    //请求状态
+    enum BattleReadyStatus{
+			OK= 1;//接收通知成功
+		}
+
+}

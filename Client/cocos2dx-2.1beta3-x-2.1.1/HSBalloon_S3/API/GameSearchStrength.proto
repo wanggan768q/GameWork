@@ -1,0 +1,14 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "GameSearchStrength";
+
+
+message GameSearchStrengthRequest{
+}
+
+
+message GameSearchStrengthResponse{
+     optional int32 strength = 1;
+     optional int32 seconds = 2;
+
+}

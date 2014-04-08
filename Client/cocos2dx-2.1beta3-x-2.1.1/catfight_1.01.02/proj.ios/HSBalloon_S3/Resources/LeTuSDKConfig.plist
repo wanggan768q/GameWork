@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SDK_URL</key>
+	<string>http://115.29.228.49/</string>
+	<key>WB_KEY</key>
+	<string>801445511</string>
+	<key>WB_PASS</key>
+	<string>6edc815db6bbf2b96d2e08b43906cdcf</string>
+	<key>WB_URL</key>
+	<string>http://121.199.10.1/apkDown/</string>
+</dict>
+</plist>

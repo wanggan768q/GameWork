@@ -1,0 +1,217 @@
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ÃüÁî£º#sceneh
+//Layer
+class HS$regionName$Layer:public CCLayer
+{
+public:
+	HS$regionName$Layer(void);
+	~HS$regionName$Layer(void);
+public:
+	virtual bool init(); 
+	CREATE_FUNC(HS$regionName$Layer);
+
+private:
+	void Load();
+
+public:
+	virtual void registerWithTouchDispatcher();
+	virtual bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+	virtual void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
+	virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+	virtual void keyBackClicked();
+	virtual void keyMenuClicked();
+};
+
+
+
+
+//Scene
+class HS$regionName$Scene:public CCScene
+{
+public:
+	HS$regionName$Scene(void);
+	~HS$regionName$Scene(void);
+private:
+	HS$regionName$Layer* hs$regionName$Layer;
+
+public:
+	virtual bool init();
+	CREATE_FUNC(HS$regionName$Scene);
+
+	inline HS$regionName$Layer* GetHS$regionName$Layer(){return this->hs$regionName$Layer;};
+
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ÃüÁî£º#scenec
+//Layer
+HS$regionName$Layer::HS$regionName$Layer(void)
+{
+}
+
+HS$regionName$Layer::~HS$regionName$Layer(void)
+{
+}
+
+bool HS$regionName$Layer::init()
+{
+	if (!CCLayer::init())
+	{
+		return false;
+	}
+	HSTool::SetLayerScale(this);
+
+	//this->setIsTouchEnabled(true);
+
+	//this->setIsKeypadEnabled(true);
+
+	return true;
+}
+
+void HS$regionName$Layer::Load()
+{
+	
+}
+
+void HS$regionName$Layer::registerWithTouchDispatcher()
+{
+	CCDirector* pDirector = CCDirector::sharedDirector();
+	pDirector->getTouchDispatcher()->addTargetedDelegate(this, -128 , true);
+}
+
+bool HS$regionName$Layer::ccTouchBegan( CCTouch *pTouch, CCEvent *pEvent )
+{
+	return true;
+}
+
+void HS$regionName$Layer::ccTouchMoved( CCTouch *pTouch, CCEvent *pEvent )
+{
+
+}
+
+void HS$regionName$Layer::ccTouchEnded( CCTouch *pTouch, CCEvent *pEvent )
+{
+
+}
+
+void HS$regionName$Layer::keyBackClicked()
+{
+
+}
+void HS$regionName$Layer::keyMenuClicked()
+{
+
+}
+
+
+
+
+
+//Scene
+HS$regionName$Scene::HS$regionName$Scene(void)
+{
+	this->hs$regionName$Layer = NULL;
+}
+
+HS$regionName$Scene::~HS$regionName$Scene(void)
+{
+}
+
+bool HS$regionName$Scene::init()
+{
+	if (!CCScene::init())
+	{
+		return false;
+	}
+
+	this->hs$regionName$Layer = HS$regionName$Layer::create();
+	this->addChild(this->hs$regionName$Layer,HS_BASE_TAG,HS_BASE_TAG);
+
+	return true;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ÃüÁî£º///h
+
+/********************************************************************
+ *  Copyright(C) 2013 Ambition_HS ( All rights reserved. )
+ *	Created:	$DATE$   $HOUR$:$MINUTE$
+ *	File base:	$FILE_BASE$.$FILE_EXT$
+ *	Author:		Ambition
+ *	
+ *	Purpose:	$end$
+*********************************************************************/
+#ifndef __$FILE_BASE$_H__
+#define __$FILE_BASE$_H__
+
+$selected$
+#endif // __$FILE_BASE$_H____
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ÃüÁî£º#listviewh
+
+class HS$regionName$ : public HSListViewInterface
+{
+public:
+	HS$regionName$(const CCSize& frameSize,const CCSize& itemSize,int onceCount);
+	~HS$regionName$(void);
+
+public:
+	static HS$regionName$* create(const CCSize& frameSize,const CCSize& itemSize,int onceCount);
+
+	virtual bool init();
+
+	virtual CCNode* AddItem(int idx);
+
+	virtual bool UpdataItem( CCNode* pItem,int idx );
+
+	virtual void tableCellTouched( CCTableView* table, CCTableViewCell* cell );
+};
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ÃüÁî£º#listviewc
+
+HS$regionName$::HS$regionName$(const CCSize& frameSize,const CCSize& itemSize,int onceCount):HSListViewInterface(frameSize,itemSize,onceCount)
+{
+}
+
+
+HS$regionName$::~HS$regionName$(void)
+{
+}
+
+HS$regionName$* HS$regionName$::create( const CCSize& frameSize,const CCSize& itemSize,int onceCount )
+{
+	HS$regionName$* pListView = new H$regionName$(frameSize,itemSize,onceCount);
+	if (pListView && pListView->init())
+	{
+		pListView->autorelease();
+		return pListView;
+	}
+	CC_SAFE_DELETE(pListView);
+	return NULL;
+}
+
+bool HS$regionName$::init()
+{
+	return true;
+}
+
+CCNode* HS$regionName$::AddItem(int idx)
+{
+	return NULL;
+}
+
+bool HS$regionName$::UpdataItem( CCNode* pItem,int idx )
+{
+	return true;
+}
+
+void HS$regionName$::tableCellTouched( CCTableView* table, CCTableViewCell* cell )
+{
+	
+}

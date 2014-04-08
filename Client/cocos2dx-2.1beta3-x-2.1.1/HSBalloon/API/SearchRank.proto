@@ -1,0 +1,23 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "SearchRank";
+
+//排名查询请求
+message SearchRankRequest{
+ 
+}
+
+//排名查询响应
+message SearchRankResponse{
+ 
+   repeated UserRank userTopRanks= 1;//200名用户排名
+   repeated UserRank userSelfRanks= 2;//用户在200名外时排名
+   optional uint32 selfRank = 3;//自己当前排名
+ 
+   message UserRank{
+    optional string userName = 1;//用户名称
+    optional uint32 rank = 2;//用户当前排名
+    optional int32  rankChange = 3;//用户排名变化，+为上升，-为下滑
+    optional uint32 score = 4;//用户当前总分
+ }
+}

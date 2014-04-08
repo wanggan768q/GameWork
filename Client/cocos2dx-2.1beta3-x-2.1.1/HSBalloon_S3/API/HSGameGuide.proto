@@ -1,0 +1,79 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "HSGameGuide";
+
+message GameGuide
+{
+	repeated Guide guideList = 1;
+	repeated BattleLayout battleLayoutList = 2;
+	
+	message Guide
+	{
+		required 	int32 id = 1;										//步骤ID(1000 开始)
+		required	bool isInterceptTouch = 2;			//是否拦截触摸消息(0不拦截 1拦截
+		required	bool isShowMask = 3;						//是否带遮罩层(0不带 1带)
+		required	bool isShowHole = 4;						//是否挖窟窿(0不挖 1挖)
+		required	bool isPause = 5;								//是否暂停
+		optional	ModeType	modeType = 6;					//模板(0矩形 1圆)
+		optional	Point	modePos = 7;							//模板位置(中心)
+		optional	float	w = 8;										//模板宽高(1.矩形 w,h  2.圆 d)
+		optional	float	h = 9;
+		optional	Point	indicationSignPos = 10;		//指示图标位置(中心)
+		optional	MirrorType mirror = 11;					//指示图标是否镜像(0.X镜像 1.Y镜像)
+		optional	float	rotate = 12[default=0];		//指示图标旋转度数(0-360之间)
+		optional	Point describeFramePos	=	13;			//描述框的位置
+		optional	string describe	=	14[default=""];	//描述
+		
+		enum ModeType
+    {
+   		ModeType_Rect = 0;	//方形
+    	ModeType_Round = 1;	//圆
+    	ModeType_NULL = 2;	//没有模板
+    }
+    
+    message Point
+    {
+    	required float x = 1;
+    	required float y = 2;
+    }
+    
+    enum MirrorType
+    {
+    	MirrorType_X = 0;
+    	MirrorType_Y = 1;
+    }
+  }
+  
+  
+  
+  
+  //战斗布局
+  message BattleLayout
+  {
+  	required 	int32 id = 1;										//行为ID(2000 开始)
+  	repeated	BalloonInfo balloonInfoList = 2;//球的id#坐标#颜色，
+  	repeated	int32 destroyBalloonIDList = 3; //消除球ID(开始-结束)
+  	repeated	Move	moveList = 4;							//移动(开始到结束)
+  	
+  	message BalloonInfo
+  	{
+  		required 	int32 id = 1;										//球ID
+  		required float x = 2;
+    	required float y = 3;
+  		required int32 color = 4;
+  	}
+  	
+  	message Move
+  	{
+  		required 	int32 beginID = 1;	
+  		required 	int32 endID = 2;	
+  	}
+  }
+
+
+  
+  
+  
+  
+
+}

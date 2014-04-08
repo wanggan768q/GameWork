@@ -1,0 +1,21 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ExitAdvanced";
+
+//用户退出高级赛场请求
+message ExitAdvancedRequest{
+}
+
+//用户退出高级赛场响应
+message ExitAdvancedResponse{
+
+ required ExitStatus status = 1;//退出状态
+ 
+ enum ExitStatus{
+   
+	   SUCCESS = 1;//主动
+	   FAILED = 0;//被动
+
+    }
+
+}

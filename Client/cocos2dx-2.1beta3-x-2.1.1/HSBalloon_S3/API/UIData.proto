@@ -1,0 +1,63 @@
+package message;
+
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "UIData";
+
+message UI
+{
+	required	string	layerName	=	1;
+	repeated	Field		fieldList	=	2;
+	optional 	string 	version	= 3[default="V.13.06.27"];
+	
+	message Field
+	{		
+		optional 	string 			resName = 1;
+		optional	string			objectName	=	2[default=""];
+		optional	ElementType	elementType	=	3[default=ElementType_UnKnow];
+		optional	string			describe	=	4[default=""];
+		optional	float				srcPointX	=	5;
+		optional	float				srcPointY	=	6;
+		optional	float				dstPointX	=	7;
+		optional	float				dstPointY	=	8;		
+		optional	float				imageW	=	9;
+		optional	float				imageH	=	10;
+		optional	float				originX = 11;
+		optional	float				originY = 12;
+		optional	bool				isVisible	=	13[default=true];
+		optional	int32				opacity	=	14[default=255];
+		optional	float				scaleX	=	15[default=1];
+		optional	float				scaleY	=	16[default=1];
+		optional	float 			rotation	=	17[default=0];
+		optional	float				skewX = 18[default=0];
+		optional	float				skewY = 19[default=0];
+		optional	Anchor			anchor =	20[default=Anchor_Centre];
+		optional	float				intervalTime	=	21;
+		optional	string			event	=	22;		
+		optional	int32				id	= 23;
+		repeated	int32				childIDList	= 24;															//当前父的 子ID
+		optional	bool				isChildType = 25[default=false];							//根据此字段 判断它的 原点		
+		repeated	Field				childList =	26;
+	
+		enum Anchor
+		{
+			Anchor_Centre							=	0;				
+			Anchor_LEFT_UP						=	1;
+			Anchor_LEFT_DOWN					=	2;
+			Anchor_LEFT_Centre				=	3;
+			Anchor_RIGHT_UP						=	4;
+			Anchor_RIGHT_DOWN					=	5;
+			Anchor_RIGHT_Centre				=	6;
+			Anchor_UP_Centre					=	7;
+			Anchor_DOWN_Centre				=	8;
+		}
+		
+		enum ElementType
+		{
+			ElementType_UnKnow		=	0;
+			ElementType_Sprite 		= 1;
+			ElementType_Menu 			= 2;
+			ElementType_Panel 		= 3;
+			ElementType_Spx 			= 4;
+		}
+	}
+}

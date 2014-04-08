@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message LanJoinLanRoomRequest
+{
+	required int32 jsonID = 1;
+	required string JNI_EGG_USER_NAME	= 2;
+	required string JNI_EGG_ROOM_NAME	= 3;
+	required string JNI_EGG_SSID = 4;
+
+}
+
+message LanJoinRoomResponse
+{
+  required int32 jsonID = 1;
+	required int32 JNI_EGG_RESULT = 2;
+	required int32 JNI_EGG_STATUS	= 3;
+
+}
+		

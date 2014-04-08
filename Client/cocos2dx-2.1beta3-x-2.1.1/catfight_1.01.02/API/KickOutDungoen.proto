@@ -1,0 +1,16 @@
+package message ;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "KickOutDungoen";
+
+// 通知客户端被踢出副本63003
+message NotifyKickedOutDungoen{
+
+      required string did = 1;//副本id
+      optional KickedOutCause cause = 2;//踢出原因
+      
+     //剔除原因
+     enum KickedOutCause{
+			Gold_Coin_Shortage  = 1; //金币不足
+			Time_Out = 2;//超时
+		}
+}

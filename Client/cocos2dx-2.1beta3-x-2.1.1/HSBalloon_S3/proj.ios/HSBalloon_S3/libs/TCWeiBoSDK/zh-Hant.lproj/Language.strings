@@ -1,0 +1,16 @@
+/* 
+  Language.strings
+  TCWeiBoSDKDemo
+
+
+*/
+
+"Cancel" = "取消";
+"Auth"   = "授权";
+"Rebroadcast" = "广播";
+"Send"   = "发送";
+"Back" = "返回";
+"Friends" = "好友列表";
+"Search topic" = "搜索 话题";
+"Relay" = "转播";
+"Video" = "视频";

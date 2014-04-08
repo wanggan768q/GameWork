@@ -1,0 +1,24 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message LanSearchRoomRequest
+{
+	required int32 jsonID = 1;
+}
+
+message LanSearchRoomResponse
+{
+  required int32 jsonID = 1;
+  
+	repeated room roomList = 2;
+	
+	message room
+	{
+		required string JNI_EGG_ROOM_NAME = 1;
+		required int32 JNI_EGG_ROOM_MAXNUM = 2;
+		required int32 JNI_EGG_ROOM_CURNUM = 3;
+		required string JNI_EGG_SSID = 4;
+	}
+
+}
+		

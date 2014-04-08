@@ -1,0 +1,29 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message UsePropRequest
+{
+	optional  string did = 1;				//战斗副本ID
+	required OperateType type = 2;
+	required uint32 usePropID = 3;
+ 	
+  enum OperateType//操作类型
+	{
+			Type_use = 1;//使用道具
+			Type_unlock = 2;//解锁道具栏
+	}
+}
+
+
+message UsePropResponse
+{
+	required	State state = 1;
+	optional 	uint32 golds = 2;//用户当前剩余金币
+	
+	enum State
+	{
+			State_Succeed = 0;
+			State_Fail = 1;
+			State_NOMONEY =2;
+	}
+}

@@ -1,0 +1,17 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Heartbeat";
+
+// 心跳请求
+message HeartbeatRequest{
+}
+
+// 心跳响应
+message HeartbeatResponse{
+
+    required ResponseStatus status = 1;//响应状态
+    enum ResponseStatus{
+			OK	= 1;//请求成功
+		}
+
+}

@@ -1,0 +1,15 @@
+package message;
+import "PropInfo.proto";
+import "BuyGold.proto";
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "S3PropInfoData";
+
+message PropInfoData
+{
+	repeated	PropInfo		manualPropInfoList	= 1;//所有手动道具信息
+	repeated	PropInfo		bufferPropInfoList	= 2;//所有buffer道具信息
+	repeated  PropInfo    effectPropInfoList = 3;//效果道具信息
+	repeated  PropInfo    lockPropInfoList =4;//道具槽锁信息
+	repeated  BuyGold     buyGoldList = 5;//购买金币的信息
+	repeated  PropInfo    headList = 6;//头像列表信息
+}

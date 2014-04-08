@@ -1,0 +1,32 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+
+
+message AchievementRequest
+{
+}
+
+
+message AchievementResponse
+{
+	repeated AchievemenStateInfo AchievementList = 1;
+	
+	message AchievemenStateInfo
+	{
+		required int32 achievementID  = 1;
+		required string name  = 2;
+		required string desc = 3;
+		required State state = 4;
+
+
+		
+		enum State
+		{
+			State_Not_Receive = 0;
+			State_Can_Receive = 1;
+			State_Have_Receive = 2;
+		}
+	}
+	
+}

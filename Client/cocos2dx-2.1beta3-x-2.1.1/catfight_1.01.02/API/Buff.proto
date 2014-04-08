@@ -1,0 +1,13 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Buff";
+// 通知客户端改变用户头像buff 63009
+import "PropInfo.proto";
+message NotifyChangeBuff
+{
+  required string targetUid = 1;//目标用户id
+  required string attacker = 2;//使用buff用户名称
+  required uint32 propId =3;//试用道具ID
+  
+}
+

@@ -1,0 +1,15 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+
+message LanRoomListData
+{
+     repeated Room roomList = 1;//房间列表
+     
+     message Room
+     {
+     		required string roomName = 1;//房间名字
+     		optional int32  maxPlayerCount = 2[default = 2];//最当玩家数量
+     		optional int32  currenterPlayerCount = 3; //当前玩家数量
+     }
+}

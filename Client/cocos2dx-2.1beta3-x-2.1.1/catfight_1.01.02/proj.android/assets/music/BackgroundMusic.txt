@@ -1,0 +1,4 @@
+back_01 = backgroundmusic01
+back_02 = backgroundmusic02
+back_03 = backgroundmusic03
+back_04 = backgroundmusic04

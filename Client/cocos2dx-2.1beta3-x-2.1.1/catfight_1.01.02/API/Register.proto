@@ -1,0 +1,27 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "Register";
+
+// 用户注册请求
+message RegisterRequest{
+
+    required string userName = 1;//用户名
+		required int32 userIconId = 2;//用户头像id
+		optional uint32 channel = 3;//客户端渠道
+    optional uint32 version = 4;//客户端版本号
+}
+
+// 用户注册响应
+message RegisterResponse{
+
+    required RegisterStatus status = 1;//注册状态
+    optional uint32 version = 2;//最新客户端版本号
+    
+    enum RegisterStatus{
+   
+			RegisterStatus_SUCCESS	= 1;//注册成功
+			RegisterStatus_FAIL 	= 0;//注册失败
+
+		}
+
+}

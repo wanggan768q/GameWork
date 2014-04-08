@@ -1,0 +1,25 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "SearchUserInfo";
+
+import "UserInfo.proto";
+
+// 用户信息查询请求
+message SearchUserInfoRequest{
+	 optional  string did = 1;				//战斗副本ID
+}
+
+// 用户信息查询响应
+message SearchUserInfoResponse{
+
+    required SearchStatus status = 1;//查询状态
+    optional UserBasicInfo userInfo = 2;//用户信息
+    
+    enum SearchStatus{
+   
+			SearchStatus_SUCCESS	= 1;//查询成功
+			SearchStatus_FAIL 	= 0;//查询失败
+
+		}
+
+}

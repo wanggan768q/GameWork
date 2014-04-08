@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME; 
+option java_outer_classname = "HSChannel";
+
+
+message Channel{
+
+    //Tom
+    optional	Tom tom = 1;
+    
+    
+    message Tom
+    {
+    	required	int32 	gameMoney = 1;
+    	required	uint32 	propID	=	2;
+    	required	string	title	=	3;
+    	required	string	describe	=	4;
+    }
+
+}

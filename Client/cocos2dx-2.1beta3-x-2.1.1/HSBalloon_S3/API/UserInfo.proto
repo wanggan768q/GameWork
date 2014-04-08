@@ -1,0 +1,58 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "UserInfo";
+import "PropInfo.proto";
+//用户基本信息
+message UserBasicInfo
+{
+     optional string uid = 1;//用户ID
+     optional string name = 2;//用户名
+     optional uint32 level = 3[default = 1];//用户等级
+     optional uint32 style = 4;//用户头像当前状态
+	 optional uint32 winCount =5;//胜利场数
+     optional uint32 loseCount = 6;//失败场数
+	 optional float winRate = 7;//胜率
+	 optional EffectData effect =8; //效果数据
+	 optional uint32 iconId = 9[default = 6000];//头像id
+	 optional uint32 successionWinCount = 10;//连胜次数
+	 
+	 optional uint32 onceLong = 11;//连接最长的一个数量
+	 optional uint64  maximum = 12;//消除猫的总量 
+	 optional uint64 totalTime = 13;// 游戏的总时间(秒)
+	 optional uint32 roundsPlayed = 14;//游戏的总局数
+	 optional uint32 throwStones = 15;//扔给对手的石头数
+	 optional uint32 thrownStones = 16;//对手给你的石头数
+	 optional uint32 colorCats = 17;//彩虹猫获得数量
+	 optional uint32 consumeGolds = 18;//消耗的金币数
+	 optional uint32 consumeItems1 = 19;//道具1使用总量
+	 optional uint32 consumeItems2 = 20;//道具2使用总量
+	 optional uint32 consumeItems3 = 21;//道具3使用总量
+	 optional uint32 consumeItems4 = 22;//道具4使用总量
+	 
+	 optional uint32 golds = 23;//当前金币数
+	 optional uint32 experience = 24;//当前经验值
+	 optional uint32 maxExperience = 25[default = 1];//当前升级所需经验
+	 repeated uint32  buyEquipFrame =26;//已经购买的道具槽的ID
+	 
+	 optional uint32 gameScore = 27;//游戏分数
+	 optional uint32 figureId = 28[default = 7000];//形像id
+	 optional uint32 figureLevel = 29[default = 1];//形像等级
+	 repeated  UnlockFigure figures = 30;
+	 
+	 
+	  
+	   message EffectData
+		 {
+			optional bool refrash = 1;//是否要刷新
+			required string targetUid = 2;//目标用户id
+  		    optional string attacker = 3;//使用buff用户名称
+  		    required uint32 propid = 4;//道具id
+		 }
+		 
+		 //已解锁的形象
+		 message UnlockFigure{
+		     required uint32 id = 1;//等级
+		     required uint32 level = 2;//形象等级
+		 }
+}
+

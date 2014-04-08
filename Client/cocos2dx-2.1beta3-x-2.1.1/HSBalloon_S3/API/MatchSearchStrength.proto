@@ -1,0 +1,15 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "MatchSearchStrength";
+
+
+message MatchSearchStrengthRequest{
+	optional  string did = 1;//id
+}
+
+
+message MatchSearchStrengthResponse{
+     optional int32 strength = 1;
+     optional int32 seconds = 2;
+
+}

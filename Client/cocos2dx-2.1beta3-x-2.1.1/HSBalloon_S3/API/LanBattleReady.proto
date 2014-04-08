@@ -1,0 +1,15 @@
+package message;
+option optimize_for = LITE_RUNTIME; 
+
+message LanBattleReadyNotice
+{
+	required string uuid = 1;//用户ID
+  required TYPE_ACTION type =2;//类型
+   
+   enum TYPE_ACTION
+   {
+   	ACTION_UNKONW =1;
+   	ACTION_READY =2;
+   	ACTION_CANCLE=3;
+   }
+}

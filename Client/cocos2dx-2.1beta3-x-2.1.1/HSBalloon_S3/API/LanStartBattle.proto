@@ -1,0 +1,12 @@
+package message ;
+option optimize_for = LITE_RUNTIME;
+
+message LanStartBattleNotify
+{	
+    required NotifyType type = 1;
+    
+    enum NotifyType
+    {
+	   		START	= 1;//¿ªÊ¼
+    }
+}

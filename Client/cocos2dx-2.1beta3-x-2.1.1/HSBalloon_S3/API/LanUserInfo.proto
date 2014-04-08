@@ -1,0 +1,13 @@
+package message;
+option optimize_for = LITE_RUNTIME; 
+
+
+message LanUserInfoData
+{
+		optional string uuid = 1;
+		optional string name = 2;
+		optional int32 winCount = 3[default = 0]; 	//胜利次数
+		optional int32 loseCount = 4[default = 0]; 	//输次数
+		optional float winRate = 5[default = 0];	//胜率
+		optional int32 type = 6[default = 2];		// 0 房主 1成员 2群众
+}

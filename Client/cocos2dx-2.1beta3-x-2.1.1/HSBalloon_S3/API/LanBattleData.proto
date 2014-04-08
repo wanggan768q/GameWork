@@ -1,0 +1,10 @@
+package message;
+import "BattleInfoData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message LanBattleDataNotice
+{
+	required string uuid = 1;//用户ID
+	required BattleInfo battleInfo = 2;
+}

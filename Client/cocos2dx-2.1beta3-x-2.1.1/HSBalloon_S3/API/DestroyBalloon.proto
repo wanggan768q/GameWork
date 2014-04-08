@@ -1,0 +1,29 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+
+
+message DestroyBalloonRequest
+{
+	required string dungoenId = 1;//副本ID
+	repeated DestroyBalloonInfo destroyBalloon = 2;
+	
+	message DestroyBalloonInfo
+	{
+		required Type	type = 1;
+		required int32 count = 2;	
+	}
+	
+	enum Type
+	{
+			BALLOON_COLOR_Petrifaction = 0;	//石化
+			BALLOON_COLOR_Camouflage = 1;		//彩色
+			BALLOON_COLOR_Normal = 2;				//一般颜色
+	}
+}
+
+
+message DestroyBalloonResponse
+{
+	
+}

@@ -1,0 +1,16 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ErrorMessage";
+// 错误消息61000
+message ErrorMessageInfo
+{	
+    required uint32 id = 1;
+    required ErrorLevel level = 2;//错误级别
+    optional string  description =3;//错误描述
+     enum ErrorLevel{
+	   LEVEL_VIEW	= 1;//显示
+	   LEVEL_NONE = 2;//不显示
+    }
+}
+
+

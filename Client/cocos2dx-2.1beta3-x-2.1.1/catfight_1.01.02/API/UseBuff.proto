@@ -1,0 +1,23 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "UseBuff";
+
+import "PropInfo.proto";
+
+// 使用buff请求
+message UseBuffRequest{
+  required string did = 1;//副本id
+  required string targetUid = 2;//目标用户id
+  required uint32 propId =3;//试用道具ID
+}
+
+// 使用buff响应
+message UseBuffResponse{
+    required UseStatus status = 1;//使用状态
+    enum UseStatus{
+			SUCCESS	= 1;//
+			FAIL 	= 0;//
+			NOMONEY = 2;
+		}
+}
+

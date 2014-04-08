@@ -1,0 +1,22 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "MatchUpgradeFigureLevel";
+
+// 形象升级请求
+message MatchUpgradeFigureLevelRequest{
+
+   required uint32 id = 1;	//形象id
+   required uint32 level = 2;	//形象当前等级
+   optional string did = 3;//副本id
+}
+
+//  形象升级响应
+message MatchUpgradeFigureLevelResponse{
+    required Status status = 1;//结果状态
+        enum Status{
+   
+			SUCCESS	= 1;//成功
+			FAIL 	= 0;//失败
+            NOMONEY =2;//金币不足
+		}
+}

@@ -1,0 +1,65 @@
+package message;
+
+option optimize_for = LITE_RUNTIME; 
+
+import "PropInfo.proto";
+import "SearchRank.proto";
+import "SearchWeeklyScore.proto";
+
+message GameCacheData
+{
+	optional	string			name	=	1;														//玩家名字
+	optional	string			UUID	=	2;														//系统ID
+	optional	string			IMEI	=	3;														//手机imei
+	optional	int32				gold	=	4[default=100000];						//金币数
+	repeated	PropInfo		usePropList	= 5;											//携带道具
+	//optional	bool				isBuyPropFrame = 6[default=true];			//是否已经购买扩充道具框
+	optional	uint32			useBackgroundID	=	7[default=2000];		//使用背景 ID
+	repeated	uint32			boughtBackgroundID = 8;								//历史得分情况
+	repeated	uint32			historyScoreList = 9;									//(没有网络的情况下把得分存到本地列表)历史得分情况
+	repeated	uint32			historyFiveHighestScoreList = 10;			//保存5次最高分
+	optional	uint32			maxHighestScore = 11[default=0]; 			//最高分
+	optional	bool 				isBackgroundMusic = 12[default=true];	//背景音乐开关
+	optional  bool				isSound	=	13[default=true];						//音效开关
+	repeated	DayScore		fiveDayScoreList = 14;								//保存5天 每天的总分数	
+	optional	WorldRankData	worldRankData	=	15;									//世界排行榜数据
+	optional	WeekRankData	weekRankData = 16;									//周排行榜数据
+	optional	bool				isSendDeviceInfo = 17[default=false];	//是否已经发送设备信息
+	repeated  bool        propSlotLock =18;                     //道具槽锁
+	repeated  bool        levelLock=19;                         //关卡锁
+	optional 	PropCacheData propCacheData = 20;                  //道具缓存数据
+	optional 	bool				isRunGameGuide = 21[default=true];		//是否运行新手引导
+	
+		
+	message DayScore
+	{
+		required	uint64 key = 1;
+		required	uint64 score = 2;
+	}
+	
+	message WorldRankData
+	{
+		required	uint64 		key = 1;
+		required	SearchRankResponse	data	=	2;
+	}
+	
+	message WeekRankData
+	{
+		required	uint64 		key = 1;
+		required	SearchWeeklyScoreResponse	data	=	2;
+	}
+	
+	message PropCacheData
+	{
+		optional uint64  lastTime = 1;                        //上次产生可以升级道具的时间
+		optional uint32  propIndex = 2;                       //可以升级的道具的索引
+		repeated  PropCache propcache = 3;                    //道具数据缓存
+	}
+	
+	message PropCache
+	{
+		optional uint32 number = 1;                  //道具的数量
+		optional uint32 useFrequency = 2;            //使用次数
+		optional  uint32 level = 3;                  //级别
+	}
+}

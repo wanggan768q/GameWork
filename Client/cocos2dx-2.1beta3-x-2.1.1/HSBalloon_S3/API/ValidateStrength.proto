@@ -1,0 +1,18 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ValidateStrength";
+
+// 校验体力值是否大于0
+message ValidateStrengthRequest{
+}
+
+// 查询体力值是否大于0
+message ValidateStrengthResponse{
+     required RESULT_TYPE result = 1;//
+        
+      enum RESULT_TYPE{
+	      OK	= 1;//体力值大于0
+	      NOT =  2;//体力值小于0
+    }
+
+}

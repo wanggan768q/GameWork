@@ -1,0 +1,21 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "AddFriend";
+
+message AddFriendRequest
+{
+	required string friendUUID = 1;
+	
+}
+
+message AddFriendResponse
+{
+	required State state = 1;
+	
+	enum State
+	{
+			State_Succeed = 1;
+			State_Fail = 0;
+	}
+	
+}

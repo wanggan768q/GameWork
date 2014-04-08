@@ -1,0 +1,22 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "PlayerDisengage";
+
+//用户退出赛场请求
+message PlayerDisengageRequest{
+   required string did = 1;
+}
+
+//用户退出赛场响应
+message PlayerDisengageResponse{
+
+ required DisengageStatus status = 1;//退出状态
+ 
+ enum DisengageStatus{
+   
+	   INITIATIVE = 1;//主动
+	   REACTIVE = 0;//被动
+
+    }
+
+}

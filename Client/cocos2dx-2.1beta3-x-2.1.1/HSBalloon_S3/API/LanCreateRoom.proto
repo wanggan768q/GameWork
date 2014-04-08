@@ -1,0 +1,15 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message LanCreateRoomRequest
+{
+	required int32 jsonID = 1;
+	required string roomName = 2;
+}
+
+message LanCreateRoomResponse
+{
+  required int32 jsonID = 1;
+	required int32 JNI_EGG_RESULT = 2;
+}
+		

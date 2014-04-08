@@ -1,0 +1,22 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+
+message DailyRewardSystemData
+{
+	repeated DailyReward dailyRewardList = 1;
+	
+	message DailyReward
+	{
+		required int32 dayID = 1;						//第几天
+		required int32 gold = 2;						//金币数
+		required ClaimedState	state = 3;		//领取状态
+		
+		enum ClaimedState
+		{
+			ClaimedState_Unclaimed = 0;
+			ClaimedState_Claimed = 1;
+			ClaimedState_AllowClaimed = 2;
+		}
+	}
+	
+}

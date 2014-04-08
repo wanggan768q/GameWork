@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'HS_TXWB' target in the 'HS_TXWB' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif

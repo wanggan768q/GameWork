@@ -1,0 +1,43 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "BattleResult";
+
+// 战斗结果请求
+message BattleResultRequest
+{
+   required string did = 1;//副本id
+   required GameStatus status = 2;//游戏状态
+   
+   enum GameStatus
+   {
+			OVER	= 1;//游戏结束
+	 }
+}
+
+// 战斗结果响应
+message BattleResultResponse
+{
+   required PlayerMatchResult result = 1;//用户的比赛结果
+   optional UpdateUserInfo selfInfo = 2;//自己信息
+   optional UpdateUserInfo tageterInfo = 3;//目标信息
+   
+   enum PlayerMatchResult
+	 {
+			WIN	= 1;//赢
+			LOST = 2;//输
+			DRAW = 3;//平局
+	 }
+}
+
+message UpdateUserInfo{
+
+    optional uint32 level = 1;//用户当前等级
+    optional uint32 experience = 2;//用户当前经验总值
+    optional uint32 winCount =3[default = 1];//胜利场数
+	optional float winRate = 4[default = 1];//胜率
+	optional uint32 successionWinCount = 5;//连胜次数
+	optional int32 incomGolds = 6;//本局钱数变化
+}
+
+
+		

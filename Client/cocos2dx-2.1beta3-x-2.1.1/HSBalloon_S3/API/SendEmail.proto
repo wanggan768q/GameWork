@@ -1,0 +1,21 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "SendEmail";
+
+message SendEmailRequest
+{
+    required string game_UUID = 1; 
+}
+
+
+message SendEmailResponse
+{
+    required SendEmailStatus status = 1;
+    
+    enum SendEmailStatus
+    {
+			Success	= 0;
+			Fail 	= 1;
+		}
+
+}

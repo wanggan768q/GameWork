@@ -1,0 +1,26 @@
+package message;
+
+option optimize_for = LITE_RUNTIME; 
+
+
+option java_outer_classname = "Message";
+
+message MessageInfo
+{
+	required Head head = 1; 
+	required Body body= 2 ; 
+}
+
+message Head
+{
+	optional string uid = 1;
+	optional string imei = 2;
+	optional sint64 checkSum = 3;
+	optional uint32 sign = 4;
+}
+
+message Body
+{
+       repeated uint32 commandId = 1;
+	repeated bytes data = 2;
+}

@@ -1,0 +1,19 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "SearchWeeklyScore";
+
+//查询用户周记录请求
+message SearchWeeklyScoreRequest{
+}
+
+//响应用户周记录请求
+message SearchWeeklyScoreResponse{
+  
+    repeated  WeeklyScore weeklyScore= 1;//用户排名
+ 
+   message WeeklyScore{
+    optional uint32 index = 1;//周顺序号
+    optional uint32 score = 2;//当前周总分
+ }
+
+}

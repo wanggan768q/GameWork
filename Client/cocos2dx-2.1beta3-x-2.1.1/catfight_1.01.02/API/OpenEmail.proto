@@ -1,0 +1,22 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "OpenEmail";
+
+
+message OpenEmailRequest
+{
+    repeated uint64 email_ID = 1; 
+}
+
+
+message OpenEmailResponse
+{
+    optional int32 gold = 1;//自己身上有多少金币
+    required OpenEmailState	state = 2;
+		
+		enum OpenEmailState
+		{
+			Succeed = 0;
+			Failed = 1;
+		}
+}

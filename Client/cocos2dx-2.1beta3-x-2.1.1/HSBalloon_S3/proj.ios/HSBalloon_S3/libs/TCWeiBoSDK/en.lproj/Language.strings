@@ -1,0 +1,15 @@
+/* 
+  Language.strings
+  TCWeiBoSDKDemo
+
+*/
+
+"Cancel" = "Cancel";
+"Auth"   = "Auth";
+"Rebroadcast" = "Rebroadcast";
+"Send"   = "Send";
+"Back" = "Back";
+"Friends" = "Friends";
+"Search topic" = "Search topic";
+"Relay" = "Relay";
+"Video" = "Video";

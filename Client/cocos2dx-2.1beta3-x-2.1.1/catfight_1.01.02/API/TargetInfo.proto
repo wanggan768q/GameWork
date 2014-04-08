@@ -1,0 +1,25 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "TargetInfo";
+
+import "UserInfo.proto";
+
+// 目标信息请求
+message TargetInfoRequest{
+	optional uint32 roomId = 1;
+}
+
+// 目标信息响应
+message TargetInfoResponse{
+ 		required FindStatus status = 1;//结果状态
+    optional string dungoenId =2;//副本ID
+    optional UserBasicInfo self = 3;//自己的基本信息
+    optional UserBasicInfo target = 4;//对战方基本信息
+    
+    enum FindStatus{
+   
+			SUCCESS	= 1;//成功
+			FAIL 	= 0;//失败
+			NOMONEY =2;//金币不足
+		}
+}

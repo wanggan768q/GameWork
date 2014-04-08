@@ -1,0 +1,14 @@
+package message;
+import "BattleInfoData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message BattleDataRequest
+{
+	required BattleInfo battleInfo = 1;
+}
+
+message BattleDataResponse
+{
+	optional BattleInfo battleInfo = 1;
+}

@@ -1,0 +1,8 @@
+package message;
+import "BattleInfoData.proto";
+option optimize_for = LITE_RUNTIME;
+
+message BattleTranscribeDataList
+{
+	repeated BattleInfo battleInfo = 1;
+}

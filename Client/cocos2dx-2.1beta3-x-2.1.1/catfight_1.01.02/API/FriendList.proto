@@ -1,0 +1,33 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "FriendList";
+
+message FriendListRequest
+{
+	optional uint32 wb_Type = 1;//µÇÂ¼ÀàÐÍ
+}
+
+
+message FriendListResponse
+{
+	repeated PlayerInfo friendList = 1;
+	
+	message PlayerInfo
+	{
+		required string game_UUID = 1; 
+		required string friendName = 2;
+		required int32 gameScore  = 3;
+		required int32 headIcon = 4;
+		required bool isAllowGive = 5;
+		required State state = 6;
+		required string friendNickName = 7;
+		
+		enum State
+		{
+			State_Online = 0;
+			State_Battle = 1;
+			State_Offline = 2;
+		}
+	}
+	
+}

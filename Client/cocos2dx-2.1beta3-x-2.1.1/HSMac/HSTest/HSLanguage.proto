@@ -1,0 +1,22 @@
+package message;
+
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "HSLanguageData";
+
+message LanguageData
+{
+	repeated Language language = 1;
+	
+	message Language
+	{
+		required	string	key	=	1;
+		repeated	Statement	statement	=	2;
+	}
+	
+	message Statement
+	{
+		required	string	country	=	1;	//¹ú¼Ò
+		optional 	string 	talk = 2;
+	}
+	
+}

@@ -1,0 +1,3 @@
+Liunx 指令
+
+addr2line -e -f *.so 地址   //得到具体的错误函数

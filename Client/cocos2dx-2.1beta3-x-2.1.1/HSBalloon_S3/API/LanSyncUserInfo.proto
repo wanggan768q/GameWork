@@ -1,0 +1,10 @@
+package message;
+import "LanUserInfo.proto";
+option optimize_for = LITE_RUNTIME; 
+
+message LanSyncUserInfoNotice
+{
+	required int32 commandID = 1;
+	required string uuid = 2;							//ÓÃ»§ID
+	required LanUserInfoData  = 3;
+}

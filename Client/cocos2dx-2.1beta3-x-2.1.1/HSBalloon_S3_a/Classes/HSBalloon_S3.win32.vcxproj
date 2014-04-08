@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2D71801-29A4-4B35-82CB-99CD0A86A408}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;.\Base;.\GameBody\Pair\EffectProp;.\GameBody\Pair;.\GameBody\Battle\GainProp;.\GameBody\Battle\DebuffProp;.\GameBody\Cover\Shop;.\GameBody\Cover\PlayerInfo;.\GameBody\Cover;.\GameBody\DailyRewardSystem;.\GameBody\AchievementSystem;.\GameBody\SeniortSystem;.\GameBody\FriendsSystem;.\GameBody\Battle;.\GameBody;.\GameMain;.\NetMessage;.\Network;.\WinMain;$(SolutionDir)libHS\proj.win32\LibMath;$(SolutionDir)libHS\proj.win32\LibFunction;$(SolutionDir)libHS\proj.win32\LibInterface;$(SolutionDir)libHS\proj.win32\LibNet;$(SolutionDir)libHS\proj.win32\LibJni;$(SolutionDir)libHS\proj.win32\LibTemplate;$(SolutionDir)libHS\proj.win32\LibBase;$(SolutionDir)libHS\proj.win32\LibSPX;$(SolutionDir)libHS\proj.win32\LibBox2d;$(SolutionDir)libHS\proj.win32\LibIO;$(SolutionDir)libHS\proj.win32\LibStructure;$(SolutionDir)libHS\proj.win32\LibNewCocos2dx;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\protobuf-2.4.1\protobuf-2.4.1\src;$(SolutionDir)cocos2dx\jsoncpp\include\json;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\iconv;$(SolutionDir)cocos2dx\platform\third_party\win32\pthread;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;$(SolutionDir)extensions\physics_nodes;$(SolutionDir)extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;CC_ENABLE_BOX2D_INTEGRATION=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;libExtensions.lib;pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>HSBalloon_S3.h</HeaderFileName>
+      <InterfaceIdentifierFileName>HSBalloon_S3_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>HSBalloon_S3_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/HSBalloon_S3.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling />
+      <DebugInformationFormat />
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>HSBalloon_S3.h</HeaderFileName>
+      <InterfaceIdentifierFileName>HSBalloon_S3_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>HSBalloon_S3_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/HSBalloon_S3.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="WinMain\res\HSBalloon_S3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinMain\HSBalloon_S3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\AchievementData.pb.h" />
+    <ClInclude Include="Base\BuyGold.pb.h" />
+    <ClInclude Include="Base\GameCacheData.pb.h" />
+    <ClInclude Include="Base\HSBox2dShapeCache.h" />
+    <ClInclude Include="Base\HSChannel.pb.h" />
+    <ClInclude Include="Base\HSChannelManager.h" />
+    <ClInclude Include="Base\HSGameCache.h" />
+    <ClInclude Include="Base\HSGameGuide.h" />
+    <ClInclude Include="Base\HSGameGuide.pb.h" />
+    <ClInclude Include="Base\HSGameMacros.h" />
+    <ClInclude Include="Base\HSInputDialogLayer.h" />
+    <ClInclude Include="Base\HSJava.h" />
+    <ClInclude Include="Base\HSJson.h" />
+    <ClInclude Include="Base\HSLoadingLayer.h" />
+    <ClInclude Include="Base\HSLog.h" />
+    <ClInclude Include="Base\HSTool.h" />
+    <ClInclude Include="Base\PropInfo.pb.h" />
+    <ClInclude Include="Base\PropInfoData.pb.h" />
+    <ClInclude Include="GameBody\Battle\DebuffProp\HSPropBalloonInterface.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSAllPropHead.h" />
+    <ClInclude Include="GameBody\Battle\HSBalloonFactory.h" />
+    <ClInclude Include="GameBody\Battle\HSBalloonSprite.h" />
+    <ClInclude Include="GameBody\Battle\HSBattleOverLayer.h" />
+    <ClInclude Include="GameBody\Battle\HSBattleScene.h" />
+    <ClInclude Include="GameBody\Battle\HSContacListener.h" />
+    <ClInclude Include="GameBody\Battle\HSEffectItemSprite.h" />
+    <ClInclude Include="GameBody\Cover\HSGameCoverScene.h" />
+    <ClInclude Include="GameBody\Cover\HSGameFrisbee.h" />
+    <ClInclude Include="GameBody\Cover\HSGamePlayerInfoLayer.h" />
+    <ClInclude Include="GameBody\Cover\HSPlayerInfoListView.h" />
+    <ClInclude Include="GameBody\Cover\HSPlayerInfoSprite.h" />
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSGamePlayerInfoLayer.h" />
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSPlayerInfoListView.h" />
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSPlayerInfoSprite.h" />
+    <ClInclude Include="GameBody\Cover\Shop\HSGameShopLayer.h" />
+    <ClInclude Include="GameBody\Cover\Shop\HSShopListView.h" />
+    <ClInclude Include="GameBody\Cover\Shop\HSShopSprite.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendsSystemScene.h" />
+    <ClInclude Include="GameBody\HSGameDialogLayer.h" />
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_BlackInk.h" />
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_ColorfulCandy.h" />
+    <ClInclude Include="GameBody\Pair\EffectProp\HSEffect_SickMucus.h" />
+    <ClInclude Include="GameBody\Pair\HSEquipFrame.h" />
+    <ClInclude Include="GameBody\Pair\HSGameAdvancedPairLayer.h" />
+    <ClInclude Include="GameBody\Pair\HSGamePairScene.h" />
+    <ClInclude Include="GameBody\Pair\HSGameSelectPropLayer.h" />
+    <ClInclude Include="GameBody\Pair\HSPropItemSprite.h" />
+    <ClInclude Include="GameBody\Pair\HSUseBufferItemSprite.h" />
+    <ClInclude Include="GameBody\Pair\HSUseBufferLayer.h" />
+    <ClInclude Include="GameMain\AppDelegate.h" />
+    <ClInclude Include="GameMain\HelloWorldScene.h" />
+    <ClInclude Include="GameMain\HSGameMainScene.h" />
+    <ClInclude Include="GameMain\HSGameSceneJumpManage.h" />
+    <ClInclude Include="GameBody\Battle\HSRaycastCallback.h" />
+    <ClInclude Include="GameBody\Battle\HSLine.h" />
+    <ClInclude Include="GameBody\Battle\HSCrossBorderInterface.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_LaserGun.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSPropIconInterface.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSPropManager.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_Meidusha.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_EnergyShield.h" />
+    <ClInclude Include="GameBody\Battle\GainProp\HSProp_Chameleon.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSCell.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSItemData.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSListView.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendsListVeiw.h" />
+    <ClInclude Include="GameBody\FriendsSystem\HSFriendInfoSprite.h" />
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenScene.h" />
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenLsitView.h" />
+    <ClInclude Include="GameBody\AchievementSystem\HSAchievemenSrpite.h" />
+    <ClInclude Include="GameBody\Cover\PlayerInfo\HSHeadSprite.h" />
+    <ClInclude Include="GameBody\Battle\HSBattleTranscribe.h" />
+    <ClInclude Include="GameBody\Battle\HSPoint.h" />
+    <ClInclude Include="GameBody\SeniortSystem\HSSeniortSystemScene.h" />
+    <ClInclude Include="GameBody\SeniortSystem\HSRoomListView.h" />
+    <ClInclude Include="GameBody\SeniortSystem\HSRoomSprite.h" />
+    <ClInclude Include="GameBody\SeniortSystem\HSGoldInadequateDialog.h" />
+    <ClInclude Include="GameBody\DailyRewardSystem\HSDailyRewardSystemLayer.h" />
+    <ClInclude Include="GameBody\Battle\HSGameGuideRaycastCallback.h" />
+    <ClInclude Include="NetMessage\AddFriend.pb.h" />
+    <ClInclude Include="NetMessage\BattleInfoData.pb.h" />
+    <ClInclude Include="NetMessage\BattleTranscribeData.pb.h" />
+    <ClInclude Include="NetMessage\ClaimedDailyReward.pb.h" />
+    <ClInclude Include="NetMessage\DailyRewardSystem.pb.h" />
+    <ClInclude Include="NetMessage\ErrorMessage.pb.h" />
+    <ClInclude Include="NetMessage\ExitAdvanced.pb.h" />
+    <ClInclude Include="NetMessage\ReceiveAchievementReward.pb.h" />
+    <ClInclude Include="NetMessage\RemoveFriend.pb.h" />
+    <ClInclude Include="NetMessage\RoomData.pb.h" />
+    <ClInclude Include="NetMessage\UserInfoUpdate.pb.h" />
+    <ClInclude Include="Network\HSThread.h" />
+    <ClInclude Include="NetMessage\Achievement.pb.h" />
+    <ClInclude Include="NetMessage\Address.pb.h" />
+    <ClInclude Include="NetMessage\BattleData.pb.h" />
+    <ClInclude Include="NetMessage\BattlePing.pb.h" />
+    <ClInclude Include="NetMessage\BattleReady.pb.h" />
+    <ClInclude Include="NetMessage\BattleResult.pb.h" />
+    <ClInclude Include="NetMessage\Buff.pb.h" />
+    <ClInclude Include="NetMessage\DeleteFriend.pb.h" />
+    <ClInclude Include="NetMessage\DestroyBalloon.pb.h" />
+    <ClInclude Include="NetMessage\Fighting.pb.h" />
+    <ClInclude Include="NetMessage\FriendInfo.pb.h" />
+    <ClInclude Include="NetMessage\GameLog.pb.h" />
+    <ClInclude Include="NetMessage\GamePing.pb.h" />
+    <ClInclude Include="NetMessage\Heartbeat.pb.h" />
+    <ClInclude Include="NetMessage\HSAllMessageHead.h" />
+    <ClInclude Include="NetMessage\KickOutDungoen.pb.h" />
+    <ClInclude Include="NetMessage\Login.pb.h" />
+    <ClInclude Include="NetMessage\Playerdisengage.pb.h" />
+    <ClInclude Include="NetMessage\Register.pb.h" />
+    <ClInclude Include="NetMessage\SearchUserInfo.pb.h" />
+    <ClInclude Include="NetMessage\StartBattle.pb.h" />
+    <ClInclude Include="NetMessage\TargetInfo.pb.h" />
+    <ClInclude Include="NetMessage\UseBuff.pb.h" />
+    <ClInclude Include="NetMessage\UseProp.pb.h" />
+    <ClInclude Include="NetMessage\UserInfo.pb.h" />
+    <ClInclude Include="Network\HSDataCache.h" />
+    <ClInclude Include="Network\HSFilter.h" />
+    <ClInclude Include="Network\HSProtocol.h" />
+    <ClInclude Include="Network\HSRequest.h" />
+    <ClInclude Include="Network\HSResponse.h" />
+    <ClInclude Include="Network\HSSocket.h" />
+    <ClInclude Include="Network\HSSocketPool.h" />
+    <ClInclude Include="WinMain\main.h" />
+    <ClInclude Include="WinMain\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\BuyGold.pb.cpp" />
+    <ClCompile Include="Base\GameCacheData.pb.cpp" />
+    <ClCompile Include="Base\HSBox2dShapeCache.cpp" />
+    <ClCompile Include="Base\HSChannel.pb.cpp" />
+    <ClCompile Include="Base\HSChannelManager.cpp" />
+    <ClCompile Include="Base\HSGameCache.cpp" />
+    <ClCompile Include="Base\HSGameGuide.cpp" />
+    <ClCompile Include="Base\HSGameGuide.pb.cpp" />
+    <ClCompile Include="Base\HSInputDialogLayer.cpp" />
+    <ClCompile Include="Base\HSJava.cpp" />
+    <ClCompile Include="Base\HSLoadingLayer.cpp" />
+    <ClCompile Include="Base\HSLog.cpp" />
+    <ClCompile Include="Base\HSTool.cpp" />
+    <ClCompile Include="Base\PropInfo.pb.cpp" />
+    <ClCompile Include="Base\PropInfoData.pb.cpp" />
+    <ClCompile Include="GameBody\Battle\DebuffProp\HSPropBalloonInterface.cpp" />
+    <ClCompile Include="GameBody\Battle\HSBalloonFactory.cpp" />
+    <ClCompile Include="GameBody\Battle\HSBalloonSprite.cpp" />
+    <ClCompile Include="GameBody\Battle\HSBattleOverLayer.cpp" />
+    <ClCompile Include="GameBody\Battle\HSBattleScene.cpp" />
+    <ClCompile Include="GameBody\Battle\HSContacListener.cpp" />
+    <ClCompile Include="GameBody\Battle\HSEffectItemSprite.cpp" />
+    <ClCompile Include="GameBody\Cover\HSGameCoverScene.cpp" />
+    <ClCompile Include="GameBody\Cover\HSGameFrisbee.cpp" />
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSGamePlayerInfoLayer.cpp" />
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSPlayerInfoListView.cpp" />
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSPlayerInfoSprite.cpp" />
+    <ClCompile Include="GameBody\Cover\Shop\HSGameShopLayer.cpp" />
+    <ClCompile Include="GameBody\Cover\Shop\HSShopListView.cpp" />
+    <ClCompile Include="GameBody\Cover\Shop\HSShopSprite.cpp" />
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendsSystemScene.cpp" />
+    <ClCompile Include="GameBody\HSGameDialogLayer.cpp" />
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_BlackInk.cpp" />
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_ColorfulCandy.cpp" />
+    <ClCompile Include="GameBody\Pair\EffectProp\HSEffect_SickMucus.cpp" />
+    <ClCompile Include="GameBody\Pair\HSEquipFrame.cpp" />
+    <ClCompile Include="GameBody\Pair\HSGameAdvancedPairLayer.cpp" />
+    <ClCompile Include="GameBody\Pair\HSGamePairScene.cpp" />
+    <ClCompile Include="GameBody\Pair\HSGameSelectPropLayer.cpp" />
+    <ClCompile Include="GameBody\Pair\HSPropItemSprite.cpp" />
+    <ClCompile Include="GameBody\Pair\HSUseBufferItemSprite.cpp" />
+    <ClCompile Include="GameBody\Pair\HSUseBufferLayer.cpp" />
+    <ClCompile Include="GameMain\AppDelegate.cpp" />
+    <ClCompile Include="GameMain\HelloWorldScene.cpp" />
+    <ClCompile Include="GameMain\HSGameMainScene.cpp" />
+    <ClCompile Include="GameMain\HSGameSceneJumpManage.cpp" />
+    <ClCompile Include="GameBody\Battle\HSRaycastCallback.cpp" />
+    <ClCompile Include="GameBody\Battle\HSLine.cpp" />
+    <ClCompile Include="GameBody\Battle\HSCrossBorderInterface.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_LaserGun.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSPropIconInterface.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSPropManager.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_Meidusha.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_EnergyShield.cpp" />
+    <ClCompile Include="GameBody\Battle\GainProp\HSProp_Chameleon.cpp" />
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendsListVeiw.cpp" />
+    <ClCompile Include="GameBody\FriendsSystem\HSFriendInfoSprite.cpp" />
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenScene.cpp" />
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenLsitView.cpp" />
+    <ClCompile Include="GameBody\AchievementSystem\HSAchievemenSrpite.cpp" />
+    <ClCompile Include="GameBody\Cover\PlayerInfo\HSHeadSprite.cpp" />
+    <ClCompile Include="GameBody\Battle\HSBattleTranscribe.cpp" />
+    <ClCompile Include="GameBody\Battle\HSPoint.cpp" />
+    <ClCompile Include="GameBody\SeniortSystem\HSSeniortSystemScene.cpp" />
+    <ClCompile Include="GameBody\SeniortSystem\HSRoomListView.cpp" />
+    <ClCompile Include="GameBody\SeniortSystem\HSRoomSprite.cpp" />
+    <ClCompile Include="GameBody\SeniortSystem\HSGoldInadequateDialog.cpp" />
+    <ClCompile Include="GameBody\DailyRewardSystem\HSDailyRewardSystemLayer.cpp" />
+    <ClCompile Include="GameBody\Battle\HSGameGuideRaycastCallback.cpp" />
+    <ClCompile Include="NetMessage\AddFriend.pb.cpp" />
+    <ClCompile Include="NetMessage\BattleInfoData.pb.cpp" />
+    <ClCompile Include="NetMessage\BattleTranscribeData.pb.cpp" />
+    <ClCompile Include="NetMessage\ClaimedDailyReward.pb.cpp" />
+    <ClCompile Include="NetMessage\DailyRewardSystem.pb.cpp" />
+    <ClCompile Include="NetMessage\ErrorMessage.pb.cpp" />
+    <ClCompile Include="NetMessage\ExitAdvanced.pb.cpp" />
+    <ClCompile Include="NetMessage\ReceiveAchievementReward.pb.cpp" />
+    <ClCompile Include="NetMessage\RemoveFriend.pb.cpp" />
+    <ClCompile Include="NetMessage\RoomData.pb.cpp" />
+    <ClCompile Include="NetMessage\UserInfoUpdate.pb.cpp" />
+    <ClCompile Include="Network\HSThread.cpp" />
+    <ClCompile Include="NetMessage\Achievement.pb.cpp" />
+    <ClCompile Include="NetMessage\Address.pb.cpp" />
+    <ClCompile Include="NetMessage\BattleData.pb.cpp" />
+    <ClCompile Include="NetMessage\BattlePing.pb.cpp" />
+    <ClCompile Include="NetMessage\BattleReady.pb.cpp" />
+    <ClCompile Include="NetMessage\BattleResult.pb.cpp" />
+    <ClCompile Include="NetMessage\Buff.pb.cpp" />
+    <ClCompile Include="NetMessage\DeleteFriend.pb.cpp" />
+    <ClCompile Include="NetMessage\DestroyBalloon.pb.cpp" />
+    <ClCompile Include="NetMessage\Fighting.pb.cpp" />
+    <ClCompile Include="NetMessage\FriendInfo.pb.cpp" />
+    <ClCompile Include="NetMessage\GameLog.pb.cpp" />
+    <ClCompile Include="NetMessage\GamePing.pb.cpp" />
+    <ClCompile Include="NetMessage\Heartbeat.pb.cpp" />
+    <ClCompile Include="NetMessage\KickOutDungoen.pb.cpp" />
+    <ClCompile Include="NetMessage\Login.pb.cpp" />
+    <ClCompile Include="NetMessage\Playerdisengage.pb.cpp" />
+    <ClCompile Include="NetMessage\Register.pb.cpp" />
+    <ClCompile Include="NetMessage\SearchUserInfo.pb.cpp" />
+    <ClCompile Include="NetMessage\StartBattle.pb.cpp" />
+    <ClCompile Include="NetMessage\TargetInfo.pb.cpp" />
+    <ClCompile Include="NetMessage\UseBuff.pb.cpp" />
+    <ClCompile Include="NetMessage\UseProp.pb.cpp" />
+    <ClCompile Include="NetMessage\UserInfo.pb.cpp" />
+    <ClCompile Include="Network\HSDataCache.cpp" />
+    <ClCompile Include="Network\HSFilter.cpp" />
+    <ClCompile Include="Network\HSProtocol.cpp" />
+    <ClCompile Include="Network\HSRequest.cpp" />
+    <ClCompile Include="Network\HSResponse.cpp" />
+    <ClCompile Include="Network\HSSocket.cpp" />
+    <ClCompile Include="Network\HSSocketPool.cpp" />
+    <ClCompile Include="WinMain\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libHS\proj.win32\libHS.win32.vcxproj">
+      <Project>{45b4bb6f-97f7-4e91-b85e-337edee10e91}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

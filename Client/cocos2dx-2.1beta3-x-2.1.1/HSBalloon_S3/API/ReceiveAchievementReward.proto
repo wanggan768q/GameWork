@@ -1,0 +1,20 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "ReceiveAchievementReward";
+
+message ReceiveAchievementRewardRequest
+{
+	required int32 achievementID = 1;
+}
+
+message ReceiveAchievementRewardResponse
+{
+  required GetState state = 1;
+	optional int32 addGoldNumber = 2;
+	enum GetState
+	{
+			GetState_Fail = 0;
+			GetState_Success = 1;
+			GetState_Repetition = 2;
+	}
+}

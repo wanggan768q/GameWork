@@ -1,0 +1,24 @@
+package message;
+option optimize_for = LITE_RUNTIME;
+option java_outer_classname = "CombatGains";
+
+// 战绩更新请求
+message CombatGainsRequest{
+
+     required uint32 score = 1;//得分数
+
+}
+
+// 战绩更新响应
+message CombatGainsResponse{
+
+     required CombatGainsStatus status = 1;//得分数
+     
+         enum CombatGainsStatus{
+   
+			CombatGainsStatus_OK	= 1;//更新战绩成功
+			CombatGainsStatus_FAIL 	= 0;//更新战绩失败
+
+		}
+
+}

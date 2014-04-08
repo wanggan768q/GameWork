@@ -1,0 +1,17 @@
+package message;
+import "LanUserInfo.proto";
+option optimize_for = LITE_RUNTIME;
+
+
+message LanBattleResultNotice
+{
+   required string uuid = 1;//用户ID
+   required GameStatus status = 2;
+   required LanUserInfoData userInfo = 3;
+   
+   	enum GameStatus
+   	{
+			OVER	= 1;
+	}
+}
+		

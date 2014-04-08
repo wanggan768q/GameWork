@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45B4BB6F-97F7-4E91-B85E-337EDEE10E91}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;.\LibStructure;.\LibNewCocos2dx;.\LibBase;.\LibNet;.\LibSPX;.\LibBox2d;.\LibJni;.\LibMath;.\LibInterface;.\LibFunction;.\LibTemplate;.\LibIO;.\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\protobuf-2.4.1\protobuf-2.4.1\src;$(SolutionDir)cocos2dx\jsoncpp\include\json;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\pthread;$(SolutionDir)cocos2dx\platform\third_party\win32\iconv;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)CocosDenshion\include;$(SolutionDir)external;$(SolutionDir)extensions;$(SolutionDir)external\Dynamics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;CC_ENABLE_BOX2D_INTEGRATION=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>libHS.h</HeaderFileName>
+      <InterfaceIdentifierFileName>libHS_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>libHS_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/libHS.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;.\LibStructure;.\LibNewCocos2dx;.\LibBase;.\LibSPX;.\LibIO;.\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\iconv;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <DebugInformationFormat />
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>libHS.h</HeaderFileName>
+      <InterfaceIdentifierFileName>libHS_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>libHS_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/libHS.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="LibFunction\HSJson.h" />
+    <ClInclude Include="LibFunction\HSOffset.h" />
+    <ClInclude Include="LibBox2d\HSBox2dTool.h" />
+    <ClInclude Include="LibInterface\HSListViewInterface\HSCellInterface.h" />
+    <ClInclude Include="LibInterface\HSListViewInterface\HSItemDataInterface.h" />
+    <ClInclude Include="LibInterface\HSListViewInterface\HSListViewInterface.h" />
+    <ClInclude Include="LibInterface\HSListViewInterface\HSTouchItemInterface.h" />
+    <ClInclude Include="LibInterface\HSModalDialogInterface\HSModalDialogInterface.h" />
+    <ClInclude Include="LibNet\HSSocketInterface.h" />
+    <ClInclude Include="LibNewCocos2dx\HSFadeIn.h" />
+    <ClInclude Include="LibNewCocos2dx\HSClippingNode.h" />
+    <ClInclude Include="LibJni\HSJni.h" />
+    <ClInclude Include="LibFunction\HSFileData.h" />
+    <ClInclude Include="LibFunction\HSLanguage.h" />
+    <ClInclude Include="LibFunction\HSReadData.h" />
+    <ClInclude Include="LibFunction\HSReadPlist.h" />
+    <ClInclude Include="LibFunction\HSReadUI.h" />
+    <ClInclude Include="LibFunction\HSSoundManage.h" />
+    <ClInclude Include="LibFunction\HSTime.h" />
+    <ClInclude Include="LibFunction\HSVisibleRect.h" />
+    <ClInclude Include="LibFunction\HSWriteData.h" />
+    <ClInclude Include="LibNewCocos2dx\HSSet.h" />
+    <ClInclude Include="LibNewCocos2dx\HSGraySprite.h" />
+    <ClInclude Include="LibNewCocos2dx\HSCCLayer.h" />
+    <ClInclude Include="LibBase\GLES-Render.h" />
+    <ClInclude Include="LibMath\HSTriangular.h" />
+    <ClInclude Include="LibMath\HSVector2d.h" />
+    <ClInclude Include="LibBase\GE_Base.h" />
+    <ClInclude Include="LibBase\HSBase.h" />
+    <ClInclude Include="LibBase\HSDataStruct.h" />
+    <ClInclude Include="LibBase\HSMacros.h" />
+    <ClInclude Include="LibBase\HSMath.h" />
+    <ClInclude Include="LibBase\HSToolBase.h" />
+    <ClInclude Include="LibIO\IO_Base.h" />
+    <ClInclude Include="LibIO\IO_CharDecoder.h" />
+    <ClInclude Include="LibIO\IO_CharEncoder.h" />
+    <ClInclude Include="LibIO\IO_CircularBuffer.h" />
+    <ClInclude Include="LibIO\IO_ConfigFile.h" />
+    <ClInclude Include="LibIO\IO_DataBlock.h" />
+    <ClInclude Include="LibIO\IO_Exception.h" />
+    <ClInclude Include="LibIO\IO_InputBuffer.h" />
+    <ClInclude Include="LibIO\IO_InputDataStream.h" />
+    <ClInclude Include="LibIO\IO_InputFile.h" />
+    <ClInclude Include="LibIO\IO_InputStream.h" />
+    <ClInclude Include="LibIO\IO_InputTextStream.h" />
+    <ClInclude Include="LibIO\IO_ISerialize.h" />
+    <ClInclude Include="LibIO\IO_OutputBuffer.h" />
+    <ClInclude Include="LibIO\IO_OutputDataStream.h" />
+    <ClInclude Include="LibIO\IO_OutputFile.h" />
+    <ClInclude Include="LibIO\IO_OutputStream.h" />
+    <ClInclude Include="LibIO\IO_OutputTextStream.h" />
+    <ClInclude Include="LibMath\HSMath.h" />
+    <ClInclude Include="LibNewCocos2dx\HSCCSprite.h" />
+    <ClInclude Include="LibNewCocos2dx\HSDownload.h" />
+    <ClInclude Include="LibNewCocos2dx\HSDrawLines.h" />
+    <ClInclude Include="LibNewCocos2dx\HSTableMenu.h" />
+    <ClInclude Include="LibShaders\HSFontFollwingFragmentShader.h" />
+    <ClInclude Include="LibSPX\SPX_Action.h" />
+    <ClInclude Include="LibSPX\SPX_Base.h" />
+    <ClInclude Include="LibSPX\SPX_Bitmap.h" />
+    <ClInclude Include="LibSPX\SPX_Data.h" />
+    <ClInclude Include="LibSPX\SPX_Demo.h" />
+    <ClInclude Include="LibSPX\SPX_Element.h" />
+    <ClInclude Include="LibSPX\SPX_Frame.h" />
+    <ClInclude Include="LibSPX\SPX_FrameSequence.h" />
+    <ClInclude Include="LibSPX\SPX_ISpriteEvent.h" />
+    <ClInclude Include="LibSPX\SPX_Manager.h" />
+    <ClInclude Include="LibSPX\SPX_Rect.h" />
+    <ClInclude Include="LibSPX\SPX_SequenceItem.h" />
+    <ClInclude Include="LibSPX\SPX_Skin.h" />
+    <ClInclude Include="LibSPX\SPX_Sprite.h" />
+    <ClInclude Include="LibSPX\SPX_Tile.h" />
+    <ClInclude Include="LibSPX\SPX_TileElement.h" />
+    <ClInclude Include="LibSPX\SPX_TileSet.h" />
+    <ClInclude Include="LibStructure\DownloadList.pb.h" />
+    <ClInclude Include="LibStructure\HSLanguage.pb.h" />
+    <ClInclude Include="LibStructure\HSMessage.pb.h" />
+    <ClInclude Include="LibStructure\HSStructure.h" />
+    <ClInclude Include="LibStructure\IoFile.pb.h" />
+    <ClInclude Include="LibStructure\UIData.pb.h" />
+    <ClInclude Include="LibShaders\HSFontStrokeShader.h" />
+    <ClInclude Include="LibTemplate\HSObjectPool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibFunction\HSJson.cpp" />
+    <ClCompile Include="LibFunction\HSOffset.cpp" />
+    <ClCompile Include="LibBox2d\HSBox2dTool.cpp" />
+    <ClCompile Include="LibInterface\HSListViewInterface\HSCellInterface.cpp" />
+    <ClCompile Include="LibInterface\HSListViewInterface\HSItemDataInterface.cpp" />
+    <ClCompile Include="LibInterface\HSListViewInterface\HSListViewInterface.cpp" />
+    <ClCompile Include="LibInterface\HSListViewInterface\HSTouchItemInterface.cpp" />
+    <ClCompile Include="LibInterface\HSModalDialogInterface\HSModalDialogInterface.cpp" />
+    <ClCompile Include="LibNet\HSSocketInterface.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSFadeIn.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSClippingNode.cpp" />
+    <ClCompile Include="LibJni\HSJni.cpp" />
+    <ClCompile Include="LibFunction\HSFileData.cpp" />
+    <ClCompile Include="LibFunction\HSLanguage.cpp" />
+    <ClCompile Include="LibFunction\HSReadData.cpp" />
+    <ClCompile Include="LibFunction\HSReadPlist.cpp" />
+    <ClCompile Include="LibFunction\HSReadUI.cpp" />
+    <ClCompile Include="LibFunction\HSSoundManage.cpp" />
+    <ClCompile Include="LibFunction\HSTime.cpp" />
+    <ClCompile Include="LibFunction\HSVisibleRect.cpp" />
+    <ClCompile Include="LibFunction\HSWriteData.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSSet.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSGraySprite.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSCCLayer.cpp" />
+    <ClCompile Include="LibBase\GLES-Render.cpp" />
+    <ClCompile Include="LibMath\HSTriangular.cpp" />
+    <ClCompile Include="LibMath\HSVector2d.cpp" />
+    <ClCompile Include="LibBase\GE_Base.cpp" />
+    <ClCompile Include="LibBase\HSBase.cpp" />
+    <ClCompile Include="LibBase\HSDataStruct.cpp" />
+    <ClCompile Include="LibBase\HSMacros.cpp" />
+    <ClCompile Include="LibBase\HSToolBase.cpp" />
+    <ClCompile Include="LibIO\IO_Base.cpp" />
+    <ClCompile Include="LibIO\IO_CharDecoder.cpp" />
+    <ClCompile Include="LibIO\IO_CharEncoder.cpp" />
+    <ClCompile Include="LibIO\IO_CircularBuffer.cpp" />
+    <ClCompile Include="LibIO\IO_ConfigFile.cpp" />
+    <ClCompile Include="LibIO\IO_DataBlock.cpp" />
+    <ClCompile Include="LibIO\IO_Exception.cpp" />
+    <ClCompile Include="LibIO\IO_InputBuffer.cpp" />
+    <ClCompile Include="LibIO\IO_InputDataStream.cpp" />
+    <ClCompile Include="LibIO\IO_InputFile.cpp" />
+    <ClCompile Include="LibIO\IO_InputStream.cpp" />
+    <ClCompile Include="LibIO\IO_InputTextStream.cpp" />
+    <ClCompile Include="LibIO\IO_ISerialize.cpp" />
+    <ClCompile Include="LibIO\IO_OutputBuffer.cpp" />
+    <ClCompile Include="LibIO\IO_OutputDataStream.cpp" />
+    <ClCompile Include="LibIO\IO_OutputFile.cpp" />
+    <ClCompile Include="LibIO\IO_OutputStream.cpp" />
+    <ClCompile Include="LibIO\IO_OutputTextStream.cpp" />
+    <ClCompile Include="LibMath\HSMath.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSCCSprite.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSDownload.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSDrawLines.cpp" />
+    <ClCompile Include="LibNewCocos2dx\HSTableMenu.cpp" />
+    <ClCompile Include="LibSPX\SPX_Action.cpp" />
+    <ClCompile Include="LibSPX\SPX_Base.cpp" />
+    <ClCompile Include="LibSPX\SPX_Bitmap.cpp" />
+    <ClCompile Include="LibSPX\SPX_Data.cpp" />
+    <ClCompile Include="LibSPX\SPX_Demo.cpp" />
+    <ClCompile Include="LibSPX\SPX_Element.cpp" />
+    <ClCompile Include="LibSPX\SPX_Frame.cpp" />
+    <ClCompile Include="LibSPX\SPX_FrameSequence.cpp" />
+    <ClCompile Include="LibSPX\SPX_ISpriteEvent.cpp" />
+    <ClCompile Include="LibSPX\SPX_Manager.cpp" />
+    <ClCompile Include="LibSPX\SPX_Rect.cpp" />
+    <ClCompile Include="LibSPX\SPX_SequenceItem.cpp" />
+    <ClCompile Include="LibSPX\SPX_Skin.cpp" />
+    <ClCompile Include="LibSPX\SPX_Sprite.cpp" />
+    <ClCompile Include="LibSPX\SPX_Tile.cpp" />
+    <ClCompile Include="LibSPX\SPX_TileElement.cpp" />
+    <ClCompile Include="LibSPX\SPX_TileSet.cpp" />
+    <ClCompile Include="LibStructure\DownloadList.pb.cpp" />
+    <ClCompile Include="LibStructure\HSLanguage.pb.cpp" />
+    <ClCompile Include="LibStructure\HSMessage.pb.cpp" />
+    <ClCompile Include="LibStructure\IoFile.pb.cpp" />
+    <ClCompile Include="LibStructure\UIData.pb.cpp" />
+    <ClCompile Include="LibTemplate\HSObjectPool.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
